@@ -59,10 +59,10 @@ export function SearchDialog({
           {events.map((event) => (
             <CommandItem
               key={event.id}
-              value={`${event.year} ${event.title} ${event.summary}`}
+              value={`${event.date} ${event.title} ${event.summary}`}
               onSelect={() => go(event.route ?? "/timeline")}
             >
-              <span className="mr-2 text-xs tracking-wide text-muted-foreground">{event.year}</span>
+              <span className="mr-2 text-xs tracking-wide text-muted-foreground">{event.date}</span>
               <span>{event.title}</span>
             </CommandItem>
           ))}
