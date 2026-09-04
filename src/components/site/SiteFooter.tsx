@@ -63,7 +63,7 @@ export function SiteFooter() {
               <li key={item.label}>
                 <Link
                   to={item.to}
-                  hash={item.hash}
+                  {...(item.hash ? { hash: item.hash } : {})}
                   className="text-parchment/75 underline-offset-4 hover:text-accent hover:underline"
                 >
                   {item.label}
