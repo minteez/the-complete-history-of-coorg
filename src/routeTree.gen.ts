@@ -14,6 +14,7 @@ import { Route as AboutRouteImport } from './routes/about'
 import { Route as AncientRouteImport } from './routes/ancient'
 import { Route as EvidenceRouteImport } from './routes/evidence'
 import { Route as GlossaryRouteImport } from './routes/glossary'
+import { Route as HaleriRouteImport } from './routes/haleri'
 import { Route as MapRouteImport } from './routes/map'
 import { Route as SourcesRouteImport } from './routes/sources'
 import { Route as TimelineRouteImport } from './routes/timeline'
@@ -43,6 +44,11 @@ const GlossaryRoute = GlossaryRouteImport.update({
   path: '/glossary',
   getParentRoute: () => rootRouteImport,
 } as any)
+const HaleriRoute = HaleriRouteImport.update({
+  id: '/haleri',
+  path: '/haleri',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const MapRoute = MapRouteImport.update({
   id: '/map',
   path: '/map',
@@ -65,6 +71,7 @@ export interface FileRoutesByFullPath {
   '/ancient': typeof AncientRoute
   '/evidence': typeof EvidenceRoute
   '/glossary': typeof GlossaryRoute
+  '/haleri': typeof HaleriRoute
   '/map': typeof MapRoute
   '/sources': typeof SourcesRoute
   '/timeline': typeof TimelineRoute
@@ -75,6 +82,7 @@ export interface FileRoutesByTo {
   '/ancient': typeof AncientRoute
   '/evidence': typeof EvidenceRoute
   '/glossary': typeof GlossaryRoute
+  '/haleri': typeof HaleriRoute
   '/map': typeof MapRoute
   '/sources': typeof SourcesRoute
   '/timeline': typeof TimelineRoute
@@ -86,6 +94,7 @@ export interface FileRoutesById {
   '/ancient': typeof AncientRoute
   '/evidence': typeof EvidenceRoute
   '/glossary': typeof GlossaryRoute
+  '/haleri': typeof HaleriRoute
   '/map': typeof MapRoute
   '/sources': typeof SourcesRoute
   '/timeline': typeof TimelineRoute
@@ -98,6 +107,7 @@ export interface FileRouteTypes {
     | '/ancient'
     | '/evidence'
     | '/glossary'
+    | '/haleri'
     | '/map'
     | '/sources'
     | '/timeline'
@@ -108,6 +118,7 @@ export interface FileRouteTypes {
     | '/ancient'
     | '/evidence'
     | '/glossary'
+    | '/haleri'
     | '/map'
     | '/sources'
     | '/timeline'
@@ -118,6 +129,7 @@ export interface FileRouteTypes {
     | '/ancient'
     | '/evidence'
     | '/glossary'
+    | '/haleri'
     | '/map'
     | '/sources'
     | '/timeline'
@@ -129,6 +141,7 @@ export interface RootRouteChildren {
   AncientRoute: typeof AncientRoute
   EvidenceRoute: typeof EvidenceRoute
   GlossaryRoute: typeof GlossaryRoute
+  HaleriRoute: typeof HaleriRoute
   MapRoute: typeof MapRoute
   SourcesRoute: typeof SourcesRoute
   TimelineRoute: typeof TimelineRoute
@@ -171,6 +184,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof GlossaryRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/haleri': {
+      id: '/haleri'
+      path: '/haleri'
+      fullPath: '/haleri'
+      preLoaderRoute: typeof HaleriRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/map': {
       id: '/map'
       path: '/map'
@@ -201,6 +221,7 @@ const rootRouteChildren: RootRouteChildren = {
   AncientRoute: AncientRoute,
   EvidenceRoute: EvidenceRoute,
   GlossaryRoute: GlossaryRoute,
+  HaleriRoute: HaleriRoute,
   MapRoute: MapRoute,
   SourcesRoute: SourcesRoute,
   TimelineRoute: TimelineRoute,
