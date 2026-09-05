@@ -16,6 +16,7 @@ import { Route as EvidenceRouteImport } from './routes/evidence'
 import { Route as GlossaryRouteImport } from './routes/glossary'
 import { Route as HaleriRouteImport } from './routes/haleri'
 import { Route as MapRouteImport } from './routes/map'
+import { Route as MysoreConflictsRouteImport } from './routes/mysore-conflicts'
 import { Route as SourcesRouteImport } from './routes/sources'
 import { Route as TimelineRouteImport } from './routes/timeline'
 
@@ -54,6 +55,11 @@ const MapRoute = MapRouteImport.update({
   path: '/map',
   getParentRoute: () => rootRouteImport,
 } as any)
+const MysoreConflictsRoute = MysoreConflictsRouteImport.update({
+  id: '/mysore-conflicts',
+  path: '/mysore-conflicts',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SourcesRoute = SourcesRouteImport.update({
   id: '/sources',
   path: '/sources',
@@ -73,6 +79,7 @@ export interface FileRoutesByFullPath {
   '/glossary': typeof GlossaryRoute
   '/haleri': typeof HaleriRoute
   '/map': typeof MapRoute
+  '/mysore-conflicts': typeof MysoreConflictsRoute
   '/sources': typeof SourcesRoute
   '/timeline': typeof TimelineRoute
 }
@@ -84,6 +91,7 @@ export interface FileRoutesByTo {
   '/glossary': typeof GlossaryRoute
   '/haleri': typeof HaleriRoute
   '/map': typeof MapRoute
+  '/mysore-conflicts': typeof MysoreConflictsRoute
   '/sources': typeof SourcesRoute
   '/timeline': typeof TimelineRoute
 }
@@ -96,6 +104,7 @@ export interface FileRoutesById {
   '/glossary': typeof GlossaryRoute
   '/haleri': typeof HaleriRoute
   '/map': typeof MapRoute
+  '/mysore-conflicts': typeof MysoreConflictsRoute
   '/sources': typeof SourcesRoute
   '/timeline': typeof TimelineRoute
 }
@@ -109,6 +118,7 @@ export interface FileRouteTypes {
     | '/glossary'
     | '/haleri'
     | '/map'
+    | '/mysore-conflicts'
     | '/sources'
     | '/timeline'
   fileRoutesByTo: FileRoutesByTo
@@ -120,6 +130,7 @@ export interface FileRouteTypes {
     | '/glossary'
     | '/haleri'
     | '/map'
+    | '/mysore-conflicts'
     | '/sources'
     | '/timeline'
   id:
@@ -131,6 +142,7 @@ export interface FileRouteTypes {
     | '/glossary'
     | '/haleri'
     | '/map'
+    | '/mysore-conflicts'
     | '/sources'
     | '/timeline'
   fileRoutesById: FileRoutesById
@@ -143,6 +155,7 @@ export interface RootRouteChildren {
   GlossaryRoute: typeof GlossaryRoute
   HaleriRoute: typeof HaleriRoute
   MapRoute: typeof MapRoute
+  MysoreConflictsRoute: typeof MysoreConflictsRoute
   SourcesRoute: typeof SourcesRoute
   TimelineRoute: typeof TimelineRoute
 }
@@ -198,6 +211,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MapRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/mysore-conflicts': {
+      id: '/mysore-conflicts'
+      path: '/mysore-conflicts'
+      fullPath: '/mysore-conflicts'
+      preLoaderRoute: typeof MysoreConflictsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/sources': {
       id: '/sources'
       path: '/sources'
@@ -223,6 +243,7 @@ const rootRouteChildren: RootRouteChildren = {
   GlossaryRoute: GlossaryRoute,
   HaleriRoute: HaleriRoute,
   MapRoute: MapRoute,
+  MysoreConflictsRoute: MysoreConflictsRoute,
   SourcesRoute: SourcesRoute,
   TimelineRoute: TimelineRoute,
 }
