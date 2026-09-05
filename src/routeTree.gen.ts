@@ -13,6 +13,7 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as EvidenceRouteImport } from './routes/evidence'
 import { Route as GlossaryRouteImport } from './routes/glossary'
+import { Route as MapRouteImport } from './routes/map'
 import { Route as SourcesRouteImport } from './routes/sources'
 import { Route as TimelineRouteImport } from './routes/timeline'
 
@@ -36,6 +37,11 @@ const GlossaryRoute = GlossaryRouteImport.update({
   path: '/glossary',
   getParentRoute: () => rootRouteImport,
 } as any)
+const MapRoute = MapRouteImport.update({
+  id: '/map',
+  path: '/map',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SourcesRoute = SourcesRouteImport.update({
   id: '/sources',
   path: '/sources',
@@ -52,6 +58,7 @@ export interface FileRoutesByFullPath {
   '/about': typeof AboutRoute
   '/evidence': typeof EvidenceRoute
   '/glossary': typeof GlossaryRoute
+  '/map': typeof MapRoute
   '/sources': typeof SourcesRoute
   '/timeline': typeof TimelineRoute
 }
@@ -60,6 +67,7 @@ export interface FileRoutesByTo {
   '/about': typeof AboutRoute
   '/evidence': typeof EvidenceRoute
   '/glossary': typeof GlossaryRoute
+  '/map': typeof MapRoute
   '/sources': typeof SourcesRoute
   '/timeline': typeof TimelineRoute
 }
@@ -69,21 +77,36 @@ export interface FileRoutesById {
   '/about': typeof AboutRoute
   '/evidence': typeof EvidenceRoute
   '/glossary': typeof GlossaryRoute
+  '/map': typeof MapRoute
   '/sources': typeof SourcesRoute
   '/timeline': typeof TimelineRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
-    '/' | '/about' | '/evidence' | '/glossary' | '/sources' | '/timeline'
+    | '/'
+    | '/about'
+    | '/evidence'
+    | '/glossary'
+    | '/map'
+    | '/sources'
+    | '/timeline'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/evidence' | '/glossary' | '/sources' | '/timeline'
+  to:
+    | '/'
+    | '/about'
+    | '/evidence'
+    | '/glossary'
+    | '/map'
+    | '/sources'
+    | '/timeline'
   id:
     | '__root__'
     | '/'
     | '/about'
     | '/evidence'
     | '/glossary'
+    | '/map'
     | '/sources'
     | '/timeline'
   fileRoutesById: FileRoutesById
@@ -93,6 +116,7 @@ export interface RootRouteChildren {
   AboutRoute: typeof AboutRoute
   EvidenceRoute: typeof EvidenceRoute
   GlossaryRoute: typeof GlossaryRoute
+  MapRoute: typeof MapRoute
   SourcesRoute: typeof SourcesRoute
   TimelineRoute: typeof TimelineRoute
 }
@@ -127,6 +151,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof GlossaryRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/map': {
+      id: '/map'
+      path: '/map'
+      fullPath: '/map'
+      preLoaderRoute: typeof MapRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/sources': {
       id: '/sources'
       path: '/sources'
@@ -149,6 +180,7 @@ const rootRouteChildren: RootRouteChildren = {
   AboutRoute: AboutRoute,
   EvidenceRoute: EvidenceRoute,
   GlossaryRoute: GlossaryRoute,
+  MapRoute: MapRoute,
   SourcesRoute: SourcesRoute,
   TimelineRoute: TimelineRoute,
 }
