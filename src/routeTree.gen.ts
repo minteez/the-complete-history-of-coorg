@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
+import { Route as AncientRouteImport } from './routes/ancient'
 import { Route as EvidenceRouteImport } from './routes/evidence'
 import { Route as GlossaryRouteImport } from './routes/glossary'
 import { Route as MapRouteImport } from './routes/map'
@@ -25,6 +26,11 @@ const IndexRoute = IndexRouteImport.update({
 const AboutRoute = AboutRouteImport.update({
   id: '/about',
   path: '/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AncientRoute = AncientRouteImport.update({
+  id: '/ancient',
+  path: '/ancient',
   getParentRoute: () => rootRouteImport,
 } as any)
 const EvidenceRoute = EvidenceRouteImport.update({
@@ -56,6 +62,7 @@ const TimelineRoute = TimelineRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/ancient': typeof AncientRoute
   '/evidence': typeof EvidenceRoute
   '/glossary': typeof GlossaryRoute
   '/map': typeof MapRoute
@@ -65,6 +72,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/ancient': typeof AncientRoute
   '/evidence': typeof EvidenceRoute
   '/glossary': typeof GlossaryRoute
   '/map': typeof MapRoute
@@ -75,6 +83,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/ancient': typeof AncientRoute
   '/evidence': typeof EvidenceRoute
   '/glossary': typeof GlossaryRoute
   '/map': typeof MapRoute
@@ -86,6 +95,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/about'
+    | '/ancient'
     | '/evidence'
     | '/glossary'
     | '/map'
@@ -95,6 +105,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/about'
+    | '/ancient'
     | '/evidence'
     | '/glossary'
     | '/map'
@@ -104,6 +115,7 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/about'
+    | '/ancient'
     | '/evidence'
     | '/glossary'
     | '/map'
@@ -114,6 +126,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
+  AncientRoute: typeof AncientRoute
   EvidenceRoute: typeof EvidenceRoute
   GlossaryRoute: typeof GlossaryRoute
   MapRoute: typeof MapRoute
@@ -135,6 +148,13 @@ declare module '@tanstack/react-router' {
       path: '/about'
       fullPath: '/about'
       preLoaderRoute: typeof AboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/ancient': {
+      id: '/ancient'
+      path: '/ancient'
+      fullPath: '/ancient'
+      preLoaderRoute: typeof AncientRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/evidence': {
@@ -178,6 +198,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
+  AncientRoute: AncientRoute,
   EvidenceRoute: EvidenceRoute,
   GlossaryRoute: GlossaryRoute,
   MapRoute: MapRoute,
