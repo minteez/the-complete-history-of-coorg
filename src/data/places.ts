@@ -36,7 +36,7 @@ export const places: Place[] = [
     level: "documented",
     summary:
       "The Haleri capital's fort, attributed in origin to Mudduraja and rebuilt in stone by later rulers and then by the British, who used it for administration.",
-    sourceIds: ["richter-gazetteer", "karnataka-gazetteer"],
+    sourceIds: ["richter-gazetteer", "karnataka-gazetteer-kodagu"],
   },
   {
     id: "madikeri-town",
@@ -48,7 +48,7 @@ export const places: Place[] = [
     level: "documented",
     summary:
       "Hill town founded as the Haleri seat of government and later the headquarters of British Coorg, Coorg State and Kodagu district.",
-    sourceIds: ["karnataka-gazetteer"],
+    sourceIds: ["karnataka-gazetteer-kodagu"],
   },
   {
     id: "nalknad-palace",
@@ -73,7 +73,7 @@ export const places: Place[] = [
     level: "traditional",
     summary:
       "The traditional source of the Kaveri on Brahmagiri hill, focus of Kaveri Sankramana, when the spring is said to well up at a fixed moment.",
-    sourceIds: ["sahapedia-kodava"],
+    sourceIds: ["sahapedia-kodagu"],
   },
   {
     id: "bhagamandala",
@@ -85,7 +85,7 @@ export const places: Place[] = [
     level: "documented",
     summary:
       "Confluence of the Kaveri, Kannike and the traditionally invisible Sujyoti; the Bhagandeshwara temple shows Kerala, Kodagu and Nayaka building styles.",
-    sourceIds: ["karnataka-gazetteer"],
+    sourceIds: ["karnataka-gazetteer-kodagu"],
   },
   {
     id: "haleri",
@@ -109,7 +109,7 @@ export const places: Place[] = [
     level: "documented",
     summary:
       "Ground near Madikeri associated with the final stand of the Coorg War of 1834, after which the kingdom was annexed.",
-    sourceIds: ["coorg-war-1834"],
+    sourceIds: ["coorg-war-wiki"],
   },
   {
     id: "amara-sullia",
@@ -121,7 +121,7 @@ export const places: Place[] = [
     level: "documented",
     summary:
       "Region of the 1837 rebellion against Company rule — a separate rising from the 1834 war, though often conflated with it.",
-    sourceIds: ["amara-sullia-revolt"],
+    sourceIds: ["amara-sullia-wiki"],
   },
   {
     id: "iruppu",
@@ -133,7 +133,7 @@ export const places: Place[] = [
     level: "traditional",
     summary:
       "Temple on the Lakshmana Tirtha in south Kodagu, linked by tradition to the Ramayana; the association is devotional rather than documented.",
-    sourceIds: ["karnataka-gazetteer"],
+    sourceIds: ["karnataka-gazetteer-kodagu"],
   },
   {
     id: "megaliths-kodagu",
@@ -145,7 +145,7 @@ export const places: Place[] = [
     level: "scholarly",
     summary:
       "Dolmens and stone burial monuments recorded across the uplands; broad regional dating rather than site-by-site excavation underlies most claims.",
-    sourceIds: ["megalithic-south-india"],
+    sourceIds: ["moriarty-megaliths"],
   },
   {
     id: "coffee-estates",
