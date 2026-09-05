@@ -11,9 +11,13 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
+import { Route as AncientRouteImport } from './routes/ancient'
+import { Route as CoorgWar1834RouteImport } from './routes/coorg-war-1834'
 import { Route as EvidenceRouteImport } from './routes/evidence'
 import { Route as GlossaryRouteImport } from './routes/glossary'
+import { Route as HaleriRouteImport } from './routes/haleri'
 import { Route as MapRouteImport } from './routes/map'
+import { Route as MysoreConflictsRouteImport } from './routes/mysore-conflicts'
 import { Route as SourcesRouteImport } from './routes/sources'
 import { Route as TimelineRouteImport } from './routes/timeline'
 
@@ -27,6 +31,16 @@ const AboutRoute = AboutRouteImport.update({
   path: '/about',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AncientRoute = AncientRouteImport.update({
+  id: '/ancient',
+  path: '/ancient',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CoorgWar1834Route = CoorgWar1834RouteImport.update({
+  id: '/coorg-war-1834',
+  path: '/coorg-war-1834',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const EvidenceRoute = EvidenceRouteImport.update({
   id: '/evidence',
   path: '/evidence',
@@ -37,9 +51,19 @@ const GlossaryRoute = GlossaryRouteImport.update({
   path: '/glossary',
   getParentRoute: () => rootRouteImport,
 } as any)
+const HaleriRoute = HaleriRouteImport.update({
+  id: '/haleri',
+  path: '/haleri',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const MapRoute = MapRouteImport.update({
   id: '/map',
   path: '/map',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MysoreConflictsRoute = MysoreConflictsRouteImport.update({
+  id: '/mysore-conflicts',
+  path: '/mysore-conflicts',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SourcesRoute = SourcesRouteImport.update({
@@ -56,18 +80,26 @@ const TimelineRoute = TimelineRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/ancient': typeof AncientRoute
+  '/coorg-war-1834': typeof CoorgWar1834Route
   '/evidence': typeof EvidenceRoute
   '/glossary': typeof GlossaryRoute
+  '/haleri': typeof HaleriRoute
   '/map': typeof MapRoute
+  '/mysore-conflicts': typeof MysoreConflictsRoute
   '/sources': typeof SourcesRoute
   '/timeline': typeof TimelineRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/ancient': typeof AncientRoute
+  '/coorg-war-1834': typeof CoorgWar1834Route
   '/evidence': typeof EvidenceRoute
   '/glossary': typeof GlossaryRoute
+  '/haleri': typeof HaleriRoute
   '/map': typeof MapRoute
+  '/mysore-conflicts': typeof MysoreConflictsRoute
   '/sources': typeof SourcesRoute
   '/timeline': typeof TimelineRoute
 }
@@ -75,9 +107,13 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/ancient': typeof AncientRoute
+  '/coorg-war-1834': typeof CoorgWar1834Route
   '/evidence': typeof EvidenceRoute
   '/glossary': typeof GlossaryRoute
+  '/haleri': typeof HaleriRoute
   '/map': typeof MapRoute
+  '/mysore-conflicts': typeof MysoreConflictsRoute
   '/sources': typeof SourcesRoute
   '/timeline': typeof TimelineRoute
 }
@@ -86,27 +122,39 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/about'
+    | '/ancient'
+    | '/coorg-war-1834'
     | '/evidence'
     | '/glossary'
+    | '/haleri'
     | '/map'
+    | '/mysore-conflicts'
     | '/sources'
     | '/timeline'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/about'
+    | '/ancient'
+    | '/coorg-war-1834'
     | '/evidence'
     | '/glossary'
+    | '/haleri'
     | '/map'
+    | '/mysore-conflicts'
     | '/sources'
     | '/timeline'
   id:
     | '__root__'
     | '/'
     | '/about'
+    | '/ancient'
+    | '/coorg-war-1834'
     | '/evidence'
     | '/glossary'
+    | '/haleri'
     | '/map'
+    | '/mysore-conflicts'
     | '/sources'
     | '/timeline'
   fileRoutesById: FileRoutesById
@@ -114,9 +162,13 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
+  AncientRoute: typeof AncientRoute
+  CoorgWar1834Route: typeof CoorgWar1834Route
   EvidenceRoute: typeof EvidenceRoute
   GlossaryRoute: typeof GlossaryRoute
+  HaleriRoute: typeof HaleriRoute
   MapRoute: typeof MapRoute
+  MysoreConflictsRoute: typeof MysoreConflictsRoute
   SourcesRoute: typeof SourcesRoute
   TimelineRoute: typeof TimelineRoute
 }
@@ -137,6 +189,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AboutRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/ancient': {
+      id: '/ancient'
+      path: '/ancient'
+      fullPath: '/ancient'
+      preLoaderRoute: typeof AncientRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/coorg-war-1834': {
+      id: '/coorg-war-1834'
+      path: '/coorg-war-1834'
+      fullPath: '/coorg-war-1834'
+      preLoaderRoute: typeof CoorgWar1834RouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/evidence': {
       id: '/evidence'
       path: '/evidence'
@@ -151,11 +217,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof GlossaryRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/haleri': {
+      id: '/haleri'
+      path: '/haleri'
+      fullPath: '/haleri'
+      preLoaderRoute: typeof HaleriRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/map': {
       id: '/map'
       path: '/map'
       fullPath: '/map'
       preLoaderRoute: typeof MapRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/mysore-conflicts': {
+      id: '/mysore-conflicts'
+      path: '/mysore-conflicts'
+      fullPath: '/mysore-conflicts'
+      preLoaderRoute: typeof MysoreConflictsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sources': {
@@ -178,9 +258,13 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
+  AncientRoute: AncientRoute,
+  CoorgWar1834Route: CoorgWar1834Route,
   EvidenceRoute: EvidenceRoute,
   GlossaryRoute: GlossaryRoute,
+  HaleriRoute: HaleriRoute,
   MapRoute: MapRoute,
+  MysoreConflictsRoute: MysoreConflictsRoute,
   SourcesRoute: SourcesRoute,
   TimelineRoute: TimelineRoute,
 }
