@@ -40,7 +40,6 @@ export const figures: Figure[] = [
     dates: "reigned c. 1789–1809",
     role: "Haleri raja who allied with the English East India Company",
     level: "documented",
-    summaryless: undefined as never,
     bio: "Escaped Mysore captivity, recovered the kingdom during the wars against Tipu Sultan, and entered into a treaty relationship with the Company in 1790. He built the forest palace at Nalknad and left the state independent but encircled.",
     sourceIds: ["dodda-vira-wiki", "richter-gazetteer"],
   },
