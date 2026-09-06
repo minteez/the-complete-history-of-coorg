@@ -18,6 +18,7 @@ import { Route as EvidenceRouteImport } from './routes/evidence'
 import { Route as FiguresRouteImport } from './routes/figures'
 import { Route as GlossaryRouteImport } from './routes/glossary'
 import { Route as HaleriRouteImport } from './routes/haleri'
+import { Route as IndependenceRouteImport } from './routes/independence'
 import { Route as MapRouteImport } from './routes/map'
 import { Route as MysoreConflictsRouteImport } from './routes/mysore-conflicts'
 import { Route as SourcesRouteImport } from './routes/sources'
@@ -68,6 +69,11 @@ const HaleriRoute = HaleriRouteImport.update({
   path: '/haleri',
   getParentRoute: () => rootRouteImport,
 } as any)
+const IndependenceRoute = IndependenceRouteImport.update({
+  id: '/independence',
+  path: '/independence',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const MapRoute = MapRouteImport.update({
   id: '/map',
   path: '/map',
@@ -99,6 +105,7 @@ export interface FileRoutesByFullPath {
   '/figures': typeof FiguresRoute
   '/glossary': typeof GlossaryRoute
   '/haleri': typeof HaleriRoute
+  '/independence': typeof IndependenceRoute
   '/map': typeof MapRoute
   '/mysore-conflicts': typeof MysoreConflictsRoute
   '/sources': typeof SourcesRoute
@@ -114,6 +121,7 @@ export interface FileRoutesByTo {
   '/figures': typeof FiguresRoute
   '/glossary': typeof GlossaryRoute
   '/haleri': typeof HaleriRoute
+  '/independence': typeof IndependenceRoute
   '/map': typeof MapRoute
   '/mysore-conflicts': typeof MysoreConflictsRoute
   '/sources': typeof SourcesRoute
@@ -130,6 +138,7 @@ export interface FileRoutesById {
   '/figures': typeof FiguresRoute
   '/glossary': typeof GlossaryRoute
   '/haleri': typeof HaleriRoute
+  '/independence': typeof IndependenceRoute
   '/map': typeof MapRoute
   '/mysore-conflicts': typeof MysoreConflictsRoute
   '/sources': typeof SourcesRoute
@@ -147,6 +156,7 @@ export interface FileRouteTypes {
     | '/figures'
     | '/glossary'
     | '/haleri'
+    | '/independence'
     | '/map'
     | '/mysore-conflicts'
     | '/sources'
@@ -162,6 +172,7 @@ export interface FileRouteTypes {
     | '/figures'
     | '/glossary'
     | '/haleri'
+    | '/independence'
     | '/map'
     | '/mysore-conflicts'
     | '/sources'
@@ -177,6 +188,7 @@ export interface FileRouteTypes {
     | '/figures'
     | '/glossary'
     | '/haleri'
+    | '/independence'
     | '/map'
     | '/mysore-conflicts'
     | '/sources'
@@ -193,6 +205,7 @@ export interface RootRouteChildren {
   FiguresRoute: typeof FiguresRoute
   GlossaryRoute: typeof GlossaryRoute
   HaleriRoute: typeof HaleriRoute
+  IndependenceRoute: typeof IndependenceRoute
   MapRoute: typeof MapRoute
   MysoreConflictsRoute: typeof MysoreConflictsRoute
   SourcesRoute: typeof SourcesRoute
@@ -264,6 +277,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof HaleriRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/independence': {
+      id: '/independence'
+      path: '/independence'
+      fullPath: '/independence'
+      preLoaderRoute: typeof IndependenceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/map': {
       id: '/map'
       path: '/map'
@@ -305,6 +325,7 @@ const rootRouteChildren: RootRouteChildren = {
   FiguresRoute: FiguresRoute,
   GlossaryRoute: GlossaryRoute,
   HaleriRoute: HaleriRoute,
+  IndependenceRoute: IndependenceRoute,
   MapRoute: MapRoute,
   MysoreConflictsRoute: MysoreConflictsRoute,
   SourcesRoute: SourcesRoute,
