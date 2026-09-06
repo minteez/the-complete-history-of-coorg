@@ -16,6 +16,7 @@ import { Route as BritishRouteImport } from './routes/british'
 import { Route as CoorgWar1834RouteImport } from './routes/coorg-war-1834'
 import { Route as CultureRouteImport } from './routes/culture'
 import { Route as EvidenceRouteImport } from './routes/evidence'
+import { Route as FestivalsRouteImport } from './routes/festivals'
 import { Route as FiguresRouteImport } from './routes/figures'
 import { Route as GlossaryRouteImport } from './routes/glossary'
 import { Route as HaleriRouteImport } from './routes/haleri'
@@ -59,6 +60,11 @@ const CultureRoute = CultureRouteImport.update({
 const EvidenceRoute = EvidenceRouteImport.update({
   id: '/evidence',
   path: '/evidence',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FestivalsRoute = FestivalsRouteImport.update({
+  id: '/festivals',
+  path: '/festivals',
   getParentRoute: () => rootRouteImport,
 } as any)
 const FiguresRoute = FiguresRouteImport.update({
@@ -115,6 +121,7 @@ export interface FileRoutesByFullPath {
   '/coorg-war-1834': typeof CoorgWar1834Route
   '/culture': typeof CultureRoute
   '/evidence': typeof EvidenceRoute
+  '/festivals': typeof FestivalsRoute
   '/figures': typeof FiguresRoute
   '/glossary': typeof GlossaryRoute
   '/haleri': typeof HaleriRoute
@@ -133,6 +140,7 @@ export interface FileRoutesByTo {
   '/coorg-war-1834': typeof CoorgWar1834Route
   '/culture': typeof CultureRoute
   '/evidence': typeof EvidenceRoute
+  '/festivals': typeof FestivalsRoute
   '/figures': typeof FiguresRoute
   '/glossary': typeof GlossaryRoute
   '/haleri': typeof HaleriRoute
@@ -152,6 +160,7 @@ export interface FileRoutesById {
   '/coorg-war-1834': typeof CoorgWar1834Route
   '/culture': typeof CultureRoute
   '/evidence': typeof EvidenceRoute
+  '/festivals': typeof FestivalsRoute
   '/figures': typeof FiguresRoute
   '/glossary': typeof GlossaryRoute
   '/haleri': typeof HaleriRoute
@@ -172,6 +181,7 @@ export interface FileRouteTypes {
     | '/coorg-war-1834'
     | '/culture'
     | '/evidence'
+    | '/festivals'
     | '/figures'
     | '/glossary'
     | '/haleri'
@@ -190,6 +200,7 @@ export interface FileRouteTypes {
     | '/coorg-war-1834'
     | '/culture'
     | '/evidence'
+    | '/festivals'
     | '/figures'
     | '/glossary'
     | '/haleri'
@@ -208,6 +219,7 @@ export interface FileRouteTypes {
     | '/coorg-war-1834'
     | '/culture'
     | '/evidence'
+    | '/festivals'
     | '/figures'
     | '/glossary'
     | '/haleri'
@@ -227,6 +239,7 @@ export interface RootRouteChildren {
   CoorgWar1834Route: typeof CoorgWar1834Route
   CultureRoute: typeof CultureRoute
   EvidenceRoute: typeof EvidenceRoute
+  FestivalsRoute: typeof FestivalsRoute
   FiguresRoute: typeof FiguresRoute
   GlossaryRoute: typeof GlossaryRoute
   HaleriRoute: typeof HaleriRoute
@@ -287,6 +300,13 @@ declare module '@tanstack/react-router' {
       path: '/evidence'
       fullPath: '/evidence'
       preLoaderRoute: typeof EvidenceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/festivals': {
+      id: '/festivals'
+      path: '/festivals'
+      fullPath: '/festivals'
+      preLoaderRoute: typeof FestivalsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/figures': {
@@ -363,6 +383,7 @@ const rootRouteChildren: RootRouteChildren = {
   CoorgWar1834Route: CoorgWar1834Route,
   CultureRoute: CultureRoute,
   EvidenceRoute: EvidenceRoute,
+  FestivalsRoute: FestivalsRoute,
   FiguresRoute: FiguresRoute,
   GlossaryRoute: GlossaryRoute,
   HaleriRoute: HaleriRoute,
