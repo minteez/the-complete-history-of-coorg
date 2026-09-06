@@ -11,14 +11,20 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
+import { Route as AgricultureRouteImport } from './routes/agriculture'
 import { Route as AncientRouteImport } from './routes/ancient'
+import { Route as BritishRouteImport } from './routes/british'
 import { Route as CoorgWar1834RouteImport } from './routes/coorg-war-1834'
+import { Route as CultureRouteImport } from './routes/culture'
 import { Route as EvidenceRouteImport } from './routes/evidence'
+import { Route as FestivalsRouteImport } from './routes/festivals'
 import { Route as FiguresRouteImport } from './routes/figures'
 import { Route as GlossaryRouteImport } from './routes/glossary'
 import { Route as HaleriRouteImport } from './routes/haleri'
+import { Route as IndependenceRouteImport } from './routes/independence'
 import { Route as MapRouteImport } from './routes/map'
 import { Route as MysoreConflictsRouteImport } from './routes/mysore-conflicts'
+import { Route as PeopleRouteImport } from './routes/people'
 import { Route as SourcesRouteImport } from './routes/sources'
 import { Route as TimelineRouteImport } from './routes/timeline'
 
@@ -32,9 +38,19 @@ const AboutRoute = AboutRouteImport.update({
   path: '/about',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AgricultureRoute = AgricultureRouteImport.update({
+  id: '/agriculture',
+  path: '/agriculture',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AncientRoute = AncientRouteImport.update({
   id: '/ancient',
   path: '/ancient',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BritishRoute = BritishRouteImport.update({
+  id: '/british',
+  path: '/british',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CoorgWar1834Route = CoorgWar1834RouteImport.update({
@@ -42,9 +58,19 @@ const CoorgWar1834Route = CoorgWar1834RouteImport.update({
   path: '/coorg-war-1834',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CultureRoute = CultureRouteImport.update({
+  id: '/culture',
+  path: '/culture',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const EvidenceRoute = EvidenceRouteImport.update({
   id: '/evidence',
   path: '/evidence',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FestivalsRoute = FestivalsRouteImport.update({
+  id: '/festivals',
+  path: '/festivals',
   getParentRoute: () => rootRouteImport,
 } as any)
 const FiguresRoute = FiguresRouteImport.update({
@@ -62,6 +88,11 @@ const HaleriRoute = HaleriRouteImport.update({
   path: '/haleri',
   getParentRoute: () => rootRouteImport,
 } as any)
+const IndependenceRoute = IndependenceRouteImport.update({
+  id: '/independence',
+  path: '/independence',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const MapRoute = MapRouteImport.update({
   id: '/map',
   path: '/map',
@@ -70,6 +101,11 @@ const MapRoute = MapRouteImport.update({
 const MysoreConflictsRoute = MysoreConflictsRouteImport.update({
   id: '/mysore-conflicts',
   path: '/mysore-conflicts',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PeopleRoute = PeopleRouteImport.update({
+  id: '/people',
+  path: '/people',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SourcesRoute = SourcesRouteImport.update({
@@ -86,28 +122,40 @@ const TimelineRoute = TimelineRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/agriculture': typeof AgricultureRoute
   '/ancient': typeof AncientRoute
+  '/british': typeof BritishRoute
   '/coorg-war-1834': typeof CoorgWar1834Route
+  '/culture': typeof CultureRoute
   '/evidence': typeof EvidenceRoute
+  '/festivals': typeof FestivalsRoute
   '/figures': typeof FiguresRoute
   '/glossary': typeof GlossaryRoute
   '/haleri': typeof HaleriRoute
+  '/independence': typeof IndependenceRoute
   '/map': typeof MapRoute
   '/mysore-conflicts': typeof MysoreConflictsRoute
+  '/people': typeof PeopleRoute
   '/sources': typeof SourcesRoute
   '/timeline': typeof TimelineRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/agriculture': typeof AgricultureRoute
   '/ancient': typeof AncientRoute
+  '/british': typeof BritishRoute
   '/coorg-war-1834': typeof CoorgWar1834Route
+  '/culture': typeof CultureRoute
   '/evidence': typeof EvidenceRoute
+  '/festivals': typeof FestivalsRoute
   '/figures': typeof FiguresRoute
   '/glossary': typeof GlossaryRoute
   '/haleri': typeof HaleriRoute
+  '/independence': typeof IndependenceRoute
   '/map': typeof MapRoute
   '/mysore-conflicts': typeof MysoreConflictsRoute
+  '/people': typeof PeopleRoute
   '/sources': typeof SourcesRoute
   '/timeline': typeof TimelineRoute
 }
@@ -115,14 +163,20 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/agriculture': typeof AgricultureRoute
   '/ancient': typeof AncientRoute
+  '/british': typeof BritishRoute
   '/coorg-war-1834': typeof CoorgWar1834Route
+  '/culture': typeof CultureRoute
   '/evidence': typeof EvidenceRoute
+  '/festivals': typeof FestivalsRoute
   '/figures': typeof FiguresRoute
   '/glossary': typeof GlossaryRoute
   '/haleri': typeof HaleriRoute
+  '/independence': typeof IndependenceRoute
   '/map': typeof MapRoute
   '/mysore-conflicts': typeof MysoreConflictsRoute
+  '/people': typeof PeopleRoute
   '/sources': typeof SourcesRoute
   '/timeline': typeof TimelineRoute
 }
@@ -131,42 +185,60 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/about'
+    | '/agriculture'
     | '/ancient'
+    | '/british'
     | '/coorg-war-1834'
+    | '/culture'
     | '/evidence'
+    | '/festivals'
     | '/figures'
     | '/glossary'
     | '/haleri'
+    | '/independence'
     | '/map'
     | '/mysore-conflicts'
+    | '/people'
     | '/sources'
     | '/timeline'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/about'
+    | '/agriculture'
     | '/ancient'
+    | '/british'
     | '/coorg-war-1834'
+    | '/culture'
     | '/evidence'
+    | '/festivals'
     | '/figures'
     | '/glossary'
     | '/haleri'
+    | '/independence'
     | '/map'
     | '/mysore-conflicts'
+    | '/people'
     | '/sources'
     | '/timeline'
   id:
     | '__root__'
     | '/'
     | '/about'
+    | '/agriculture'
     | '/ancient'
+    | '/british'
     | '/coorg-war-1834'
+    | '/culture'
     | '/evidence'
+    | '/festivals'
     | '/figures'
     | '/glossary'
     | '/haleri'
+    | '/independence'
     | '/map'
     | '/mysore-conflicts'
+    | '/people'
     | '/sources'
     | '/timeline'
   fileRoutesById: FileRoutesById
@@ -174,14 +246,20 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
+  AgricultureRoute: typeof AgricultureRoute
   AncientRoute: typeof AncientRoute
+  BritishRoute: typeof BritishRoute
   CoorgWar1834Route: typeof CoorgWar1834Route
+  CultureRoute: typeof CultureRoute
   EvidenceRoute: typeof EvidenceRoute
+  FestivalsRoute: typeof FestivalsRoute
   FiguresRoute: typeof FiguresRoute
   GlossaryRoute: typeof GlossaryRoute
   HaleriRoute: typeof HaleriRoute
+  IndependenceRoute: typeof IndependenceRoute
   MapRoute: typeof MapRoute
   MysoreConflictsRoute: typeof MysoreConflictsRoute
+  PeopleRoute: typeof PeopleRoute
   SourcesRoute: typeof SourcesRoute
   TimelineRoute: typeof TimelineRoute
 }
@@ -202,11 +280,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AboutRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/agriculture': {
+      id: '/agriculture'
+      path: '/agriculture'
+      fullPath: '/agriculture'
+      preLoaderRoute: typeof AgricultureRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/ancient': {
       id: '/ancient'
       path: '/ancient'
       fullPath: '/ancient'
       preLoaderRoute: typeof AncientRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/british': {
+      id: '/british'
+      path: '/british'
+      fullPath: '/british'
+      preLoaderRoute: typeof BritishRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/coorg-war-1834': {
@@ -216,11 +308,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CoorgWar1834RouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/culture': {
+      id: '/culture'
+      path: '/culture'
+      fullPath: '/culture'
+      preLoaderRoute: typeof CultureRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/evidence': {
       id: '/evidence'
       path: '/evidence'
       fullPath: '/evidence'
       preLoaderRoute: typeof EvidenceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/festivals': {
+      id: '/festivals'
+      path: '/festivals'
+      fullPath: '/festivals'
+      preLoaderRoute: typeof FestivalsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/figures': {
@@ -244,6 +350,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof HaleriRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/independence': {
+      id: '/independence'
+      path: '/independence'
+      fullPath: '/independence'
+      preLoaderRoute: typeof IndependenceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/map': {
       id: '/map'
       path: '/map'
@@ -256,6 +369,13 @@ declare module '@tanstack/react-router' {
       path: '/mysore-conflicts'
       fullPath: '/mysore-conflicts'
       preLoaderRoute: typeof MysoreConflictsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/people': {
+      id: '/people'
+      path: '/people'
+      fullPath: '/people'
+      preLoaderRoute: typeof PeopleRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sources': {
@@ -278,14 +398,20 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
+  AgricultureRoute: AgricultureRoute,
   AncientRoute: AncientRoute,
+  BritishRoute: BritishRoute,
   CoorgWar1834Route: CoorgWar1834Route,
+  CultureRoute: CultureRoute,
   EvidenceRoute: EvidenceRoute,
+  FestivalsRoute: FestivalsRoute,
   FiguresRoute: FiguresRoute,
   GlossaryRoute: GlossaryRoute,
   HaleriRoute: HaleriRoute,
+  IndependenceRoute: IndependenceRoute,
   MapRoute: MapRoute,
   MysoreConflictsRoute: MysoreConflictsRoute,
+  PeopleRoute: PeopleRoute,
   SourcesRoute: SourcesRoute,
   TimelineRoute: TimelineRoute,
 }
