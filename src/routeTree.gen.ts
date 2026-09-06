@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
+import { Route as AgricultureRouteImport } from './routes/agriculture'
 import { Route as AncientRouteImport } from './routes/ancient'
 import { Route as BritishRouteImport } from './routes/british'
 import { Route as CoorgWar1834RouteImport } from './routes/coorg-war-1834'
@@ -35,6 +36,11 @@ const IndexRoute = IndexRouteImport.update({
 const AboutRoute = AboutRouteImport.update({
   id: '/about',
   path: '/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AgricultureRoute = AgricultureRouteImport.update({
+  id: '/agriculture',
+  path: '/agriculture',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AncientRoute = AncientRouteImport.update({
@@ -116,6 +122,7 @@ const TimelineRoute = TimelineRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/agriculture': typeof AgricultureRoute
   '/ancient': typeof AncientRoute
   '/british': typeof BritishRoute
   '/coorg-war-1834': typeof CoorgWar1834Route
@@ -135,6 +142,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/agriculture': typeof AgricultureRoute
   '/ancient': typeof AncientRoute
   '/british': typeof BritishRoute
   '/coorg-war-1834': typeof CoorgWar1834Route
@@ -155,6 +163,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/agriculture': typeof AgricultureRoute
   '/ancient': typeof AncientRoute
   '/british': typeof BritishRoute
   '/coorg-war-1834': typeof CoorgWar1834Route
@@ -176,6 +185,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/about'
+    | '/agriculture'
     | '/ancient'
     | '/british'
     | '/coorg-war-1834'
@@ -195,6 +205,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/about'
+    | '/agriculture'
     | '/ancient'
     | '/british'
     | '/coorg-war-1834'
@@ -214,6 +225,7 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/about'
+    | '/agriculture'
     | '/ancient'
     | '/british'
     | '/coorg-war-1834'
@@ -234,6 +246,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
+  AgricultureRoute: typeof AgricultureRoute
   AncientRoute: typeof AncientRoute
   BritishRoute: typeof BritishRoute
   CoorgWar1834Route: typeof CoorgWar1834Route
@@ -265,6 +278,13 @@ declare module '@tanstack/react-router' {
       path: '/about'
       fullPath: '/about'
       preLoaderRoute: typeof AboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/agriculture': {
+      id: '/agriculture'
+      path: '/agriculture'
+      fullPath: '/agriculture'
+      preLoaderRoute: typeof AgricultureRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/ancient': {
@@ -378,6 +398,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
+  AgricultureRoute: AgricultureRoute,
   AncientRoute: AncientRoute,
   BritishRoute: BritishRoute,
   CoorgWar1834Route: CoorgWar1834Route,
