@@ -14,6 +14,7 @@ import { Route as AboutRouteImport } from './routes/about'
 import { Route as AncientRouteImport } from './routes/ancient'
 import { Route as BritishRouteImport } from './routes/british'
 import { Route as CoorgWar1834RouteImport } from './routes/coorg-war-1834'
+import { Route as CultureRouteImport } from './routes/culture'
 import { Route as EvidenceRouteImport } from './routes/evidence'
 import { Route as FiguresRouteImport } from './routes/figures'
 import { Route as GlossaryRouteImport } from './routes/glossary'
@@ -48,6 +49,11 @@ const BritishRoute = BritishRouteImport.update({
 const CoorgWar1834Route = CoorgWar1834RouteImport.update({
   id: '/coorg-war-1834',
   path: '/coorg-war-1834',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CultureRoute = CultureRouteImport.update({
+  id: '/culture',
+  path: '/culture',
   getParentRoute: () => rootRouteImport,
 } as any)
 const EvidenceRoute = EvidenceRouteImport.update({
@@ -107,6 +113,7 @@ export interface FileRoutesByFullPath {
   '/ancient': typeof AncientRoute
   '/british': typeof BritishRoute
   '/coorg-war-1834': typeof CoorgWar1834Route
+  '/culture': typeof CultureRoute
   '/evidence': typeof EvidenceRoute
   '/figures': typeof FiguresRoute
   '/glossary': typeof GlossaryRoute
@@ -124,6 +131,7 @@ export interface FileRoutesByTo {
   '/ancient': typeof AncientRoute
   '/british': typeof BritishRoute
   '/coorg-war-1834': typeof CoorgWar1834Route
+  '/culture': typeof CultureRoute
   '/evidence': typeof EvidenceRoute
   '/figures': typeof FiguresRoute
   '/glossary': typeof GlossaryRoute
@@ -142,6 +150,7 @@ export interface FileRoutesById {
   '/ancient': typeof AncientRoute
   '/british': typeof BritishRoute
   '/coorg-war-1834': typeof CoorgWar1834Route
+  '/culture': typeof CultureRoute
   '/evidence': typeof EvidenceRoute
   '/figures': typeof FiguresRoute
   '/glossary': typeof GlossaryRoute
@@ -161,6 +170,7 @@ export interface FileRouteTypes {
     | '/ancient'
     | '/british'
     | '/coorg-war-1834'
+    | '/culture'
     | '/evidence'
     | '/figures'
     | '/glossary'
@@ -178,6 +188,7 @@ export interface FileRouteTypes {
     | '/ancient'
     | '/british'
     | '/coorg-war-1834'
+    | '/culture'
     | '/evidence'
     | '/figures'
     | '/glossary'
@@ -195,6 +206,7 @@ export interface FileRouteTypes {
     | '/ancient'
     | '/british'
     | '/coorg-war-1834'
+    | '/culture'
     | '/evidence'
     | '/figures'
     | '/glossary'
@@ -213,6 +225,7 @@ export interface RootRouteChildren {
   AncientRoute: typeof AncientRoute
   BritishRoute: typeof BritishRoute
   CoorgWar1834Route: typeof CoorgWar1834Route
+  CultureRoute: typeof CultureRoute
   EvidenceRoute: typeof EvidenceRoute
   FiguresRoute: typeof FiguresRoute
   GlossaryRoute: typeof GlossaryRoute
@@ -260,6 +273,13 @@ declare module '@tanstack/react-router' {
       path: '/coorg-war-1834'
       fullPath: '/coorg-war-1834'
       preLoaderRoute: typeof CoorgWar1834RouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/culture': {
+      id: '/culture'
+      path: '/culture'
+      fullPath: '/culture'
+      preLoaderRoute: typeof CultureRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/evidence': {
@@ -341,6 +361,7 @@ const rootRouteChildren: RootRouteChildren = {
   AncientRoute: AncientRoute,
   BritishRoute: BritishRoute,
   CoorgWar1834Route: CoorgWar1834Route,
+  CultureRoute: CultureRoute,
   EvidenceRoute: EvidenceRoute,
   FiguresRoute: FiguresRoute,
   GlossaryRoute: GlossaryRoute,
