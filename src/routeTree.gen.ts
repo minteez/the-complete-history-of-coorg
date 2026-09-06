@@ -14,6 +14,7 @@ import { Route as AboutRouteImport } from './routes/about'
 import { Route as AncientRouteImport } from './routes/ancient'
 import { Route as CoorgWar1834RouteImport } from './routes/coorg-war-1834'
 import { Route as EvidenceRouteImport } from './routes/evidence'
+import { Route as FiguresRouteImport } from './routes/figures'
 import { Route as GlossaryRouteImport } from './routes/glossary'
 import { Route as HaleriRouteImport } from './routes/haleri'
 import { Route as MapRouteImport } from './routes/map'
@@ -44,6 +45,11 @@ const CoorgWar1834Route = CoorgWar1834RouteImport.update({
 const EvidenceRoute = EvidenceRouteImport.update({
   id: '/evidence',
   path: '/evidence',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FiguresRoute = FiguresRouteImport.update({
+  id: '/figures',
+  path: '/figures',
   getParentRoute: () => rootRouteImport,
 } as any)
 const GlossaryRoute = GlossaryRouteImport.update({
@@ -83,6 +89,7 @@ export interface FileRoutesByFullPath {
   '/ancient': typeof AncientRoute
   '/coorg-war-1834': typeof CoorgWar1834Route
   '/evidence': typeof EvidenceRoute
+  '/figures': typeof FiguresRoute
   '/glossary': typeof GlossaryRoute
   '/haleri': typeof HaleriRoute
   '/map': typeof MapRoute
@@ -96,6 +103,7 @@ export interface FileRoutesByTo {
   '/ancient': typeof AncientRoute
   '/coorg-war-1834': typeof CoorgWar1834Route
   '/evidence': typeof EvidenceRoute
+  '/figures': typeof FiguresRoute
   '/glossary': typeof GlossaryRoute
   '/haleri': typeof HaleriRoute
   '/map': typeof MapRoute
@@ -110,6 +118,7 @@ export interface FileRoutesById {
   '/ancient': typeof AncientRoute
   '/coorg-war-1834': typeof CoorgWar1834Route
   '/evidence': typeof EvidenceRoute
+  '/figures': typeof FiguresRoute
   '/glossary': typeof GlossaryRoute
   '/haleri': typeof HaleriRoute
   '/map': typeof MapRoute
@@ -125,6 +134,7 @@ export interface FileRouteTypes {
     | '/ancient'
     | '/coorg-war-1834'
     | '/evidence'
+    | '/figures'
     | '/glossary'
     | '/haleri'
     | '/map'
@@ -138,6 +148,7 @@ export interface FileRouteTypes {
     | '/ancient'
     | '/coorg-war-1834'
     | '/evidence'
+    | '/figures'
     | '/glossary'
     | '/haleri'
     | '/map'
@@ -151,6 +162,7 @@ export interface FileRouteTypes {
     | '/ancient'
     | '/coorg-war-1834'
     | '/evidence'
+    | '/figures'
     | '/glossary'
     | '/haleri'
     | '/map'
@@ -165,6 +177,7 @@ export interface RootRouteChildren {
   AncientRoute: typeof AncientRoute
   CoorgWar1834Route: typeof CoorgWar1834Route
   EvidenceRoute: typeof EvidenceRoute
+  FiguresRoute: typeof FiguresRoute
   GlossaryRoute: typeof GlossaryRoute
   HaleriRoute: typeof HaleriRoute
   MapRoute: typeof MapRoute
@@ -208,6 +221,13 @@ declare module '@tanstack/react-router' {
       path: '/evidence'
       fullPath: '/evidence'
       preLoaderRoute: typeof EvidenceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/figures': {
+      id: '/figures'
+      path: '/figures'
+      fullPath: '/figures'
+      preLoaderRoute: typeof FiguresRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/glossary': {
@@ -261,6 +281,7 @@ const rootRouteChildren: RootRouteChildren = {
   AncientRoute: AncientRoute,
   CoorgWar1834Route: CoorgWar1834Route,
   EvidenceRoute: EvidenceRoute,
+  FiguresRoute: FiguresRoute,
   GlossaryRoute: GlossaryRoute,
   HaleriRoute: HaleriRoute,
   MapRoute: MapRoute,
