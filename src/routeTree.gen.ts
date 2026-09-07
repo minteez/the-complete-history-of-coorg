@@ -22,8 +22,10 @@ import { Route as FiguresRouteImport } from './routes/figures'
 import { Route as GlossaryRouteImport } from './routes/glossary'
 import { Route as HaleriRouteImport } from './routes/haleri'
 import { Route as IndependenceRouteImport } from './routes/independence'
+import { Route as LanguageRouteImport } from './routes/language'
 import { Route as MapRouteImport } from './routes/map'
 import { Route as MysoreConflictsRouteImport } from './routes/mysore-conflicts'
+import { Route as PattolePalameRouteImport } from './routes/pattole-palame'
 import { Route as PeopleRouteImport } from './routes/people'
 import { Route as SourcesRouteImport } from './routes/sources'
 import { Route as TimelineRouteImport } from './routes/timeline'
@@ -93,6 +95,11 @@ const IndependenceRoute = IndependenceRouteImport.update({
   path: '/independence',
   getParentRoute: () => rootRouteImport,
 } as any)
+const LanguageRoute = LanguageRouteImport.update({
+  id: '/language',
+  path: '/language',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const MapRoute = MapRouteImport.update({
   id: '/map',
   path: '/map',
@@ -101,6 +108,11 @@ const MapRoute = MapRouteImport.update({
 const MysoreConflictsRoute = MysoreConflictsRouteImport.update({
   id: '/mysore-conflicts',
   path: '/mysore-conflicts',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PattolePalameRoute = PattolePalameRouteImport.update({
+  id: '/pattole-palame',
+  path: '/pattole-palame',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PeopleRoute = PeopleRouteImport.update({
@@ -133,8 +145,10 @@ export interface FileRoutesByFullPath {
   '/glossary': typeof GlossaryRoute
   '/haleri': typeof HaleriRoute
   '/independence': typeof IndependenceRoute
+  '/language': typeof LanguageRoute
   '/map': typeof MapRoute
   '/mysore-conflicts': typeof MysoreConflictsRoute
+  '/pattole-palame': typeof PattolePalameRoute
   '/people': typeof PeopleRoute
   '/sources': typeof SourcesRoute
   '/timeline': typeof TimelineRoute
@@ -153,8 +167,10 @@ export interface FileRoutesByTo {
   '/glossary': typeof GlossaryRoute
   '/haleri': typeof HaleriRoute
   '/independence': typeof IndependenceRoute
+  '/language': typeof LanguageRoute
   '/map': typeof MapRoute
   '/mysore-conflicts': typeof MysoreConflictsRoute
+  '/pattole-palame': typeof PattolePalameRoute
   '/people': typeof PeopleRoute
   '/sources': typeof SourcesRoute
   '/timeline': typeof TimelineRoute
@@ -174,8 +190,10 @@ export interface FileRoutesById {
   '/glossary': typeof GlossaryRoute
   '/haleri': typeof HaleriRoute
   '/independence': typeof IndependenceRoute
+  '/language': typeof LanguageRoute
   '/map': typeof MapRoute
   '/mysore-conflicts': typeof MysoreConflictsRoute
+  '/pattole-palame': typeof PattolePalameRoute
   '/people': typeof PeopleRoute
   '/sources': typeof SourcesRoute
   '/timeline': typeof TimelineRoute
@@ -196,8 +214,10 @@ export interface FileRouteTypes {
     | '/glossary'
     | '/haleri'
     | '/independence'
+    | '/language'
     | '/map'
     | '/mysore-conflicts'
+    | '/pattole-palame'
     | '/people'
     | '/sources'
     | '/timeline'
@@ -216,8 +236,10 @@ export interface FileRouteTypes {
     | '/glossary'
     | '/haleri'
     | '/independence'
+    | '/language'
     | '/map'
     | '/mysore-conflicts'
+    | '/pattole-palame'
     | '/people'
     | '/sources'
     | '/timeline'
@@ -236,8 +258,10 @@ export interface FileRouteTypes {
     | '/glossary'
     | '/haleri'
     | '/independence'
+    | '/language'
     | '/map'
     | '/mysore-conflicts'
+    | '/pattole-palame'
     | '/people'
     | '/sources'
     | '/timeline'
@@ -257,8 +281,10 @@ export interface RootRouteChildren {
   GlossaryRoute: typeof GlossaryRoute
   HaleriRoute: typeof HaleriRoute
   IndependenceRoute: typeof IndependenceRoute
+  LanguageRoute: typeof LanguageRoute
   MapRoute: typeof MapRoute
   MysoreConflictsRoute: typeof MysoreConflictsRoute
+  PattolePalameRoute: typeof PattolePalameRoute
   PeopleRoute: typeof PeopleRoute
   SourcesRoute: typeof SourcesRoute
   TimelineRoute: typeof TimelineRoute
@@ -357,6 +383,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndependenceRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/language': {
+      id: '/language'
+      path: '/language'
+      fullPath: '/language'
+      preLoaderRoute: typeof LanguageRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/map': {
       id: '/map'
       path: '/map'
@@ -369,6 +402,13 @@ declare module '@tanstack/react-router' {
       path: '/mysore-conflicts'
       fullPath: '/mysore-conflicts'
       preLoaderRoute: typeof MysoreConflictsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pattole-palame': {
+      id: '/pattole-palame'
+      path: '/pattole-palame'
+      fullPath: '/pattole-palame'
+      preLoaderRoute: typeof PattolePalameRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/people': {
@@ -409,8 +449,10 @@ const rootRouteChildren: RootRouteChildren = {
   GlossaryRoute: GlossaryRoute,
   HaleriRoute: HaleriRoute,
   IndependenceRoute: IndependenceRoute,
+  LanguageRoute: LanguageRoute,
   MapRoute: MapRoute,
   MysoreConflictsRoute: MysoreConflictsRoute,
+  PattolePalameRoute: PattolePalameRoute,
   PeopleRoute: PeopleRoute,
   SourcesRoute: SourcesRoute,
   TimelineRoute: TimelineRoute,
