@@ -1,490 +1,251 @@
 # The Complete History of Coorg
 
-Build a complete, polished, research-oriented historical web application called **“The Complete History of Coorg”** with the domain/branding concept **coorg-history-vault.lovable.app**.
+### An Interactive Digital Archive of Kodagu's History, Culture, People & Language
 
-## 1. PROJECT PURPOSE
+**The Complete History of Coorg** is an interactive historical and cultural archive dedicated to documenting and presenting the story of **Coorg (Kodagu), Karnataka, India**.
 
-Create an interactive digital historical archive dedicated to the history, culture, people, language, and identity of **Coorg (Kodagu), Karnataka, India**.
+From prehistoric megalithic remains and ancient dynasties to the rise of the Haleri Kingdom, conflicts with Mysore, British annexation, the transition to independent India, and the integration of Coorg into modern Karnataka, the project brings together the many layers of Kodagu's past in one digital experience.
 
-This must NOT feel like a generic tourism website. It should feel like a combination of:
+The website also explores the **Kodava people, clan system, religious traditions, festivals, agricultural transformation, military heritage, Kodava Takk language, literature, historical personalities, important places, and cultural preservation efforts**.
 
-* A digital history museum
-* An interactive historical atlas
-* A cultural archive
-* A linguistic reference
-* An educational resource
-* A visual timeline
-
-The website should tell the story of Kodagu from its prehistoric archaeological evidence through the ancient and medieval periods, the Haleri dynasty, conflicts with Mysore, British annexation, independence, the formation of Coorg State, integration into Mysore State/Karnataka, and the modern cultural and linguistic identity of Kodagu.
-
-The tone should be **historical, scholarly, respectful, immersive, visually rich, and accessible to students and general visitors**.
-
-Do NOT make unsupported claims sound like established facts. Where historians or sources disagree, explicitly label information as disputed, traditional, uncertain, or debated.
+Rather than functioning as a conventional tourism website, the project is designed as a **digital museum, historical atlas, cultural archive, and educational resource**.
 
 ---
 
-# 2. CRITICAL RESEARCH AND ACCURACY REQUIREMENT
+## 🌿 About Coorg / Kodagu
 
-Before generating historical content, research and cross-check information using multiple reliable sources.
+Kodagu, historically known as **Coorg**, is a mountainous district located in the Western Ghats of Karnataka.
 
-Use Wikipedia as a starting/reference source, NOT as the sole authority.
+Its history is shaped by its distinctive geography, connections with neighbouring South Indian kingdoms, the rise of the Haleri rulers, conflicts involving Mysore, British colonial administration, and its eventual political integration into modern Karnataka.
 
-Prioritize:
+The region is also closely associated with the **Kodava people and their distinctive cultural and linguistic heritage**.
 
-### Primary/official sources
-
-* Government of India publications
-* Census of India / District Census Handbooks
-* Karnataka Government and Karnataka Legislature resources
-* Archaeological publications
-* Government museums and archives
-* Ministry of Defence material for military history
-
-### Academic / scholarly sources
-
-* Books on Kodagu/Coorg history
-* Historical monographs
-* Linguistic research
-* Peer-reviewed archaeological research
-* University publications
-* Digital archives and digitized historical books
-
-### Important historical books and works to investigate
-
-Include relevant works where available, such as:
-
-* **Coorg Memoirs** — Hermann Mögling (1855)
-* **An Elementary Grammar of the Coorg Language** — R. A. Cole (1867)
-* **Coorg Songs, with Outlines of Coorg Grammar** — Rev. A. Graeter (1870)
-* **Pattole Palame** — Nadikerianda Chinnappa (first published 1924)
-* **A Comparative Grammar of the Dravidian or South-Indian Family of Languages** — Robert Caldwell
-* Relevant works by Lewis Rice
-* Relevant works by Mookonda Kushalappa
-* Relevant modern academic research on Kodagu archaeology and Kodava linguistics
-
-Create a dedicated **Sources & Bibliography** section containing the books, articles, government publications and websites actually used.
-
-Every major historical section should have source references.
-
-Do not fabricate quotations, dates, archaeological discoveries, historical figures, population figures, linguistic facts, or citations.
-
-If a requested claim cannot be reliably verified, either omit it or clearly mark it as uncertain.
+This project attempts to present that history as a connected story rather than as isolated events.
 
 ---
 
-# 3. VISUAL DESIGN
+# 🏛️ What This Website Covers
 
-Create a premium historical-archive aesthetic.
+The website is divided into several interconnected areas of historical and cultural exploration.
 
-### Overall visual direction
+## 1. Chronological History of Coorg
 
-Think:
+The central historical timeline takes visitors through the major periods in Kodagu's development.
 
-**Western Ghats + archival museum + old manuscripts + modern interactive atlas.**
+### Prehistoric Kodagu
 
-Use:
+Explore archaeological evidence associated with early communities of the region, including:
 
-* Deep forest green
-* Dark earthy brown
-* Warm parchment/ivory
-* Muted gold/bronze accents
-* Charcoal
-* Subtle copper tones
-
-Avoid making the site look like a stereotypical “Indian heritage” template.
-
-The interface should feel modern and sophisticated.
-
-Use:
-
-* Large editorial typography
-* Elegant serif headings
-* Clean sans-serif body text
-* Subtle paper/grain textures
-* Archival cards
-* Thin borders
-* Gentle shadows
-* Museum-style information panels
-* Smooth but restrained animations
-
-The website must remain highly readable.
-
-Support:
-
-* Desktop
-* Tablet
-* Mobile
-
-Use responsive layouts throughout.
-
----
-
-# 4. HOMEPAGE / HERO
-
-Create a cinematic hero section.
-
-Title:
-
-**The Complete History of Coorg**
-
-Subtitle:
-
-**From the ancient hills of Kodagu to the modern identity of Coorg**
-
-Include a visually striking background representing Kodagu's landscape:
-
-* Western Ghats
-* Mist-covered hills
-* Coffee plantations
-* Forests
-* Traditional Kodava cultural elements
-
-Do not use generic stock images if historically specific imagery is required.
-
-Add two major buttons:
-
-**Explore the Timeline**
-
-**Explore the Map**
-
-Add a small line:
-
-**Kodagu • Coorg • ಕೊಡಗು**
-
-Below the hero, create a short introduction explaining that Kodagu is a historically distinctive region of the Western Ghats whose story encompasses ancient settlements, dynasties, the Haleri kingdom, colonial transformation, and a distinctive cultural and linguistic heritage.
-
----
-
-# 5. INTERACTIVE HISTORICAL TIMELINE
-
-This should be the centerpiece of the website.
-
-Create a highly interactive horizontal/vertical timeline with major historical periods.
-
-Timeline:
-
-### ERA I — PREHISTORIC KODAGU
-
-Cover:
-
-* Megalithic burial monuments
-* Dolmens / dolmenoid cists
+* Megalithic monuments
+* Dolmens and dolmenoid structures
 * Cairns
 * Menhirs
-* Archaeological evidence of human settlement
-* The significance of prehistoric burial practices
-* Major archaeological locations where reliable evidence exists
+* Burial traditions
+* Prehistoric settlements
+* Archaeological interpretations of early Kodagu
 
-Explain the term **Pandukuli / Pandukalis** carefully and distinguish local terminology from archaeological terminology.
-
-Include archaeological photographs and/or illustrations.
-
-Create a visual “What archaeologists can tell us” information card explaining what archaeological remains can and cannot establish about ancient populations.
+The website distinguishes archaeological evidence from later oral traditions and legends.
 
 ---
 
-### ERA II — ANCIENT KODAGU
+### Ancient Kodagu
 
-Discuss:
+The ancient history section explores:
 
-* References to Kodagu in early Tamil/Sangam literature
-* Early geographical descriptions
-* Ezhimala-related political influence where supported
-* Early local chieftains
-* The relationship between Kodagu and neighbouring regions
+* Early literary references to Kodagu
+* Connections with neighbouring South Indian regions
+* Early political formations
+* Ancient trade and cultural connections
+* Archaeological and literary evidence
 
-Clearly distinguish literary references from archaeological evidence.
-
----
-
-### ERA III — EARLY DYNASTIES
-
-Create individual sections/cards for:
-
-**Kadambas**
-
-**Gangas**
-
-**Cholas**
-
-**Hoysalas**
-
-Explain:
-
-* Approximate periods
-* Areas of Kodagu under their influence
-* Political relationships
-* Important inscriptions/evidence
-* Religious and cultural developments
-* How control shifted between powers
-
-Use a map showing changing political influence where reliable historical reconstruction is possible.
-
-Do NOT imply that every dynasty continuously controlled the entirety of modern Kodagu.
+Because ancient political boundaries rarely correspond exactly to modern district boundaries, historical influence is presented carefully rather than assuming that every ancient dynasty controlled the entirety of present-day Kodagu.
 
 ---
 
-# 6. HALERI DYNASTY — THE KINGDOM OF COORG
+### Early Dynasties
 
-Create a major visually rich chapter.
+The website examines the historical influence of major South Indian dynasties associated with the region, including:
 
-Heading:
+* Kadambas
+* Gangas
+* Cholas
+* Hoysalas
 
-**The Haleri Dynasty — 1600s–1834**
+The section explores their political influence, inscriptions, cultural developments, territorial relationships, and interactions with neighbouring powers.
 
-Explain:
+---
 
-* Origins and historical traditions surrounding the Haleri rulers
-* Connection with the Keladi/Ikkeri Nayakas
-* Consolidation of Kodagu
-* Local chieftains and political organisation
-* Establishment of a more unified kingdom
-* Movement of the capital to Madikeri/Mercara
+# 👑 2. The Haleri Dynasty
+
+One of the most important sections of the project focuses on the **Haleri Dynasty and the Kingdom of Coorg**.
+
+The website explores the development and consolidation of the Kodagu kingdom, including:
+
+* Origins of the Haleri rulers
+* Connections with the Keladi/Ikkeri Nayakas
+* Political consolidation of Kodagu
+* Development of the Coorg kingdom
+* Establishment of Madikeri as the capital
 * Madikeri Fort
 * Royal administration
-* Relations with neighbouring Mysore
+* Relations with neighbouring powers
+* Succession of Haleri rulers
+* The eventual fall of the kingdom in 1834
 
-Create an interactive dynasty tree.
+A dedicated ruler timeline presents the major Haleri kings and their historical context.
 
-Include rulers such as:
-
-* Vira Raja
-* Appaji Raja
-* Muddu Raja
-* Dodda Virappa
-* Chikka Virappa
-* Muddu Raja II
-* Devappa Raja
-* Linga Raja I
-* Dodda Vira Rajendra
-* Devammaji
-* Linga Raja II
-* Chikka/Vira Rajendra
-
-IMPORTANT:
-
-Historical sources sometimes differ in dates, names, spellings and succession details.
-
-Display alternative spellings where useful and include a small “Historical sources differ” indicator.
-
-Create a **Ruler Profile Card** for every major ruler:
-
-* Name
-* Reign
-* Major events
-* Political context
-* Historical significance
-* Portrait/representation where available
-* Sources
+Where historical sources differ in names, dates, spellings, or succession, the website attempts to identify those differences instead of presenting uncertain information as absolute fact.
 
 ---
 
-# 7. MADIKERI — THE CAPITAL
+# 🏰 3. Madikeri — The Historic Capital
 
-Create a dedicated visual subsection:
+The history of Madikeri is presented as an important part of the story of the Coorg kingdom.
 
-**Madikeri: From Muddu Raja Keri to Mercara and Madikeri**
+The website explores:
 
-Explain:
-
-* The name Muddu Raja Keri
-* Muddu Raja's role
-* Establishment/development of Madikeri as capital
+* The development of Madikeri
+* Muddu Raja and the origins of the capital
 * Madikeri Fort
-* British-era Mercara terminology
-* Later restoration of the name Madikeri
+* The royal palace
+* The historical name Mercara
+* The evolution of the city through the colonial and post-independence periods
 
-Include:
-
-* Madikeri Fort photographs
-* Palace photographs
-* Historical illustrations/maps
-* Modern photographs
-
-Create an interactive “Then & Now” presentation if suitable images can be legally sourced.
+Historical photographs, maps, illustrations, and modern imagery help demonstrate the transformation of the city over time.
 
 ---
 
-# 8. ANGLO-MYSORE CONFLICTS
+# ⚔️ 4. Kodagu, Mysore & the Anglo-Mysore Conflicts
 
-Create a major chapter:
+Kodagu's strategic position made it an important part of the political struggles involving the Kingdom of Mysore and the British East India Company.
 
-**Kodagu Between Mysore and the British**
-
-Cover:
+This section explores:
 
 ### Hyder Ali
 
 * Mysore's expansion
-* Attempts to exert control over Kodagu
-* Political circumstances surrounding the Haleri succession
-* Kodagu's strategic importance
+* Attempts to establish control over Kodagu
+* Political tensions involving the Haleri kingdom
 
-### 1782 Kodava Rebellion
+### The 1782 Rebellion
 
-Explain the uprising against Mysore occupation and the expulsion of Mysore forces.
+The website examines the Kodava uprising against Mysorean occupation and the historical circumstances surrounding the rebellion.
 
 ### Tipu Sultan
 
-Discuss:
+The section discusses:
 
-* Mysore's renewed campaigns
-* Conflict with Kodagu
-* Captivity and displacement narratives
-* The historical debate surrounding these events
-* Escape of Dodda Vira Rajendra
-* Alliance with the British
-* Campaign against Tipu's forces
+* Mysorean campaigns in Kodagu
+* Political and military conflict
+* The experiences of Kodagu's population
+* Dodda Vira Rajendra
+* Relations between Kodagu and the British
+* The eventual collapse of Tipu Sultan's power
 
-This section MUST use neutral historical language.
-
-Where historical accounts differ substantially, provide a:
-
-**“What the sources disagree about”**
-
-panel.
-
-Do not glorify violence.
-
-Use maps showing the geopolitical situation rather than graphic battle imagery.
+Where historical accounts differ, competing interpretations are identified rather than presenting a single narrative as unquestionable fact.
 
 ---
 
-# 9. THE COORG WAR OF 1834
+# ⚔️ 5. The Coorg War of 1834
 
-Create a dedicated chapter:
+The year **1834** marked a decisive turning point in Kodagu's history.
 
-**The End of the Haleri Kingdom**
+The website explores:
 
-Explain:
+* The reign of Chikka Vira Rajendra
+* Growing British intervention
+* The East India Company's campaign
+* Resistance within Kodagu
+* The deposition of the Raja
+* The end of the Haleri monarchy
+* British annexation of Coorg
 
-* Political situation under Chikka Vira Rajendra
-* East India Company intervention
-* British military campaign
-* Resistance in Kodagu
-* Mathanda Appachu and other historical figures where supported
-* Surrender/deposition of the Raja
-* Annexation of Kodagu into British India
-
-Include:
-
-* Historical maps
-* Portraits
-* Paintings/illustrations where available
-* Archival documents
-
-Create an interactive “Fall of the Kingdom” timeline.
+The events surrounding 1834 are presented through a combination of chronology, maps, historical figures, archival material, and explanatory text.
 
 ---
 
-# 10. BRITISH KODAGU — 1834–1947
+# 🇬🇧 6. British Coorg — 1834–1947
 
-Explain:
+Following the end of the Haleri kingdom, Coorg became a British-administered territory.
 
-* Administration under the British
+The British-era section examines:
+
 * Chief Commissioners
-* Mercara/Madikeri as administrative centre
-* Changes in land administration
+* Colonial administration
+* Land administration
 * Education
 * Roads and infrastructure
 * Missionary activity
+* Economic transformation
 * Coffee cultivation
-* Plantation economy
-* Colonial economic interests
+* Plantation agriculture
 * Social change
-* Kodagu's relationship with the wider Madras/Mysore political world
+* Relations with neighbouring territories
 
-IMPORTANT:
+The project aims to present colonial history in a balanced manner, recognizing both administrative changes and the broader context of colonial economic and political interests.
 
-Do not portray colonial rule as simply “modernisation.”
+---
 
-Present both:
+# ☕ 7. The Agricultural Transformation of Kodagu
 
-* Administrative/infrastructural changes
-* Colonial extraction and economic interests
+Agriculture is an essential part of Kodagu's history.
 
-Create a section:
+The website explores the transformation from traditional agricultural systems, particularly wet-rice cultivation, toward a plantation economy increasingly associated with:
 
-**Coffee and the Transformation of Kodagu**
-
-Explain how coffee became a major plantation crop and changed the economic landscape of Kodagu.
-
-Also discuss:
-
+* Coffee
 * Pepper
 * Cardamom
 * Paddy
-* Plantation labour
-* Changing agricultural patterns
+
+Special attention is given to the historical development of coffee cultivation and its long-term influence on Kodagu's economy, landscape, land use, and identity.
 
 ---
 
-# 11. 1837 REBELLION
+# 🇮🇳 8. Kodagu & Indian Independence
 
-Create a smaller but significant chapter discussing the **1837 rebellion in Kodagu and neighbouring areas**.
+The project follows Kodagu through the transition from British rule to independent India.
 
-Explain its background, participants, British response, and historical significance using reliable sources.
+This section covers:
 
-Do not confuse this with the 1834 Coorg War.
-
----
-
-# 12. COORG AND INDIAN INDEPENDENCE
-
-Create a chapter:
-
-**From British Coorg to Independent India**
-
-Cover:
-
-* 1947 independence
-* End of British rule
+* Indian independence in 1947
+* End of British administration
 * Political transition
-* Responsible government
+* Emergence of Coorg's representative institutions
 * C. M. Poonacha
 * Formation of Coorg State
 
 ---
 
-# 13. COORG STATE — 1950–1956
+# 🏛️ 9. Coorg State — 1950–1956
 
-Create a dedicated visual chapter.
+A dedicated section explains the short but important history of **Coorg State** after the Constitution came into force.
 
-Explain that:
-
-**Coorg became a Part-C State when the Constitution came into force on 26 January 1950.**
-
-Include:
-
-* Capital: Mercara
-* Government structure
-* Legislative institutions
-* C. M. Poonacha
-* Political debates surrounding the future of Coorg
-
-Then explain:
-
-**States Reorganisation Act, 1956**
-
-On 1 November 1956, Coorg was merged into the reorganised Mysore State.
-
-Later, Mysore State was renamed Karnataka in 1973.
-
-Create an animated political timeline:
+The timeline follows:
 
 **British Coorg → Independent India → Coorg State → Mysore State → Karnataka**
 
+The website explains:
+
+* Part-C State status
+* Political administration
+* Legislative institutions
+* C. M. Poonacha
+* States Reorganisation
+* The merger of Coorg with the reorganised Mysore State in 1956
+* The later renaming of Mysore State as Karnataka in 1973
+
+This creates a clear bridge between historical Coorg and the modern Kodagu district.
+
 ---
 
-# 14. THE MAP OF COORG — MAJOR FEATURE
+# 🗺️ 10. Interactive Map of Kodagu
 
-Create an extremely prominent **interactive map of Kodagu**.
+One of the flagship features of the website is an **interactive historical map of Coorg/Kodagu**.
 
-This should be one of the most visually impressive parts of the website.
+The map is designed to connect geography with history.
 
-The map should show:
+It can include locations such as:
 
-* Kodagu district boundary
 * Madikeri
 * Virajpet
 * Somwarpet
@@ -492,484 +253,341 @@ The map should show:
 * Gonikoppal
 * Talakaveri
 * Bhagamandala
-* major rivers
-* Western Ghats
-* important historical sites
-* forts
-* archaeological sites where reliable coordinates are available
-* major cultural locations
+* Madikeri Fort
+* Nalknad Palace
+* Important archaeological locations
+* Historical settlements
+* Cultural sites
 
-Add layers:
+### Map Layers
 
-### Modern Kodagu
+Users can explore different geographical perspectives, including:
 
-Current district geography.
+* Modern Kodagu
+* Historical Kingdom of Coorg
+* Ancient and medieval political influence
+* British-era administration
+* Cultural locations
+* Archaeological sites
 
-### Historical Kingdom
+Historical boundaries are clearly labelled as reconstructions or approximate representations where appropriate.
 
-Approximate historical Kingdom of Coorg territory, clearly labelled as a historical reconstruction.
-
-### Ancient / Medieval
-
-Approximate areas of political influence.
-
-### British Period
-
-Major administrative locations.
-
-### Cultural Map
-
-Important locations connected with Kodava culture.
-
-### Archaeological Map
-
-Known prehistoric/megalithic sites.
-
-Use an appropriate mapping library such as **Leaflet** if compatible with the project.
-
-Use OpenStreetMap-compatible mapping where appropriate.
-
-Do not fabricate coordinates.
-
-Every historical location marker should open a popup containing:
-
-* Name
-* Historical significance
-* Period
-* Short explanation
-* Source
-
-Include a legend.
-
-Make the map responsive.
+The map is intended to function as a **historical atlas**, allowing users to understand how geography influenced Kodagu's history.
 
 ---
 
-# 15. KODAVA PEOPLE AND CLAN SYSTEM
+# 👥 11. The Kodava People
 
-Create a major cultural chapter:
+The website contains a dedicated exploration of the **Kodava community and its cultural identity**.
 
-**The Kodava People**
-
-Discuss:
+Topics include:
 
 * Kodava identity
-* Historical settlement in Kodagu
+* Historical settlement
 * Okkas
-* Patrilineal clan structure
-* Ainmanes / ancestral homes
-* Family traditions
-* Social organisation
-* Clan histories
+* Ainmanes
+* Clan organisation
+* Family histories
+* Social traditions
 * Community institutions
+* Cultural continuity
 
-Explain the terms clearly.
-
-Create an interactive diagram:
-
-**Individual → Family → Okkā → Ainmane → Community**
-
-Avoid stereotyping the community.
-
-Distinguish the **Kodava people** from the broader population of Kodagu, which includes many communities.
+A key goal is to distinguish the **Kodava community** from the wider population of Kodagu, which consists of many different communities.
 
 ---
 
-# 16. RELIGIOUS AND SPIRITUAL TRADITIONS
+# 🏠 12. Okkas & Ainmanes
 
-Create:
+The project explores two important elements of traditional Kodava social organisation:
 
-**Sacred Traditions of Kodagu**
+### Okka
 
-Explain:
+The patrilineal clan/family structure associated with Kodava society.
 
-* ancestor veneration
+### Ainmane
+
+The ancestral family home and an important centre of family identity and tradition.
+
+The website explains how family history, ancestry, ritual practices, and architecture are interconnected.
+
+---
+
+# 🕯️ 13. Religious & Spiritual Traditions
+
+The cultural section explores traditional Kodava spiritual practices, including:
+
+* Ancestor veneration
 * Karana traditions
-* sacred groves / Kaimadas where relevant
-* local deities
-* nature-related traditions
-* relationship between ancestral and community practices
+* Local deities
+* Sacred spaces
+* Sacred groves
+* Community rituals
+* Relationships between indigenous traditions and wider Hindu practices
 
-Be academically respectful.
-
-Do not oversimplify the traditions as merely “animism.”
-
-Explain that Kodagu's religious practices developed through interaction between indigenous traditions and wider Hindu religious traditions.
+The website avoids reducing these traditions to simplistic labels and instead presents them in their historical and cultural context.
 
 ---
 
-# 17. FESTIVALS
+# 🎉 14. Festivals of Kodagu
 
-Create visually rich cards for:
+Major festivals are presented through dedicated visual sections.
 
-### Kailpodhud
+## Kailpodhud
 
-Discuss historical and cultural significance, agricultural context and traditional practices.
+Explores its historical, agricultural, and cultural significance.
 
-### Kaveri Sankramana
+## Kaveri Sankramana
 
-Discuss the sacred importance of the River Kaveri and Talakaveri.
+Explores the cultural and spiritual importance of the River Kaveri and Talakaveri.
 
-### Puttari
+## Puttari
 
-Discuss the harvest connection and traditional celebrations.
+Explores the harvest festival and its relationship with traditional agricultural life.
 
-Include:
+Each festival section combines:
 
-* photographs
-* cultural explanations
-* historical context
-* modern practice
-
-Avoid presenting cultural practices as frozen in the past.
-
----
-
-# 18. AGRICULTURAL HISTORY
-
-Create:
-
-**From Paddy Fields to Coffee Estates**
-
-Timeline:
-
-**Traditional Paddy Agriculture → Colonial Coffee Expansion → Modern Plantation Economy**
-
-Cover:
-
-* wet-rice cultivation
-* coffee
-* pepper
-* cardamom
-* plantation systems
-* land transformation
-* current importance of coffee
-* relationship between agriculture and Kodagu's landscape
-
-Use an interactive crop timeline/map if possible.
+* History
+* Cultural meaning
+* Traditional practices
+* Modern observance
+* Photographs
 
 ---
 
-# 19. KODAVA MILITARY HERITAGE
+# 🎖️ 15. Kodagu's Military Heritage
 
-Create:
+Kodagu has a notable association with military service in India.
 
-**A Tradition of Military Service**
+The website presents this history through biographies and historical context rather than military instruction.
 
-Discuss the historical warrior tradition of Kodagu and later contributions to India's armed forces.
+Featured figures include:
 
-Feature:
+## Field Marshal K. M. Cariappa
 
-### Field Marshal K. M. Cariappa
+The website explores:
 
-Include:
+* Early life
+* Military career
+* Leadership
+* Role in independent India's armed forces
+* His significance as India's first Indian Commander-in-Chief of the Army
+* Later recognition as Field Marshal
 
-* biography
-* early life
-* military career
-* significance
-* becoming the first Indian Commander-in-Chief of the Indian Army
-* Field Marshal rank
+## General K. S. Thimayya
 
-### General K. S. Thimayya
+The website explores:
 
-Include:
+* Early life
+* Military career
+* Leadership
+* Service as Chief of the Army Staff
+* Historical significance
 
-* biography
-* military career
-* Chief of the Indian Army
-* major historical significance
-
-Use official Government of India / Ministry of Defence sources wherever possible.
-
-IMPORTANT:
-
-This is historical/cultural material only. Do not provide instructions about weapons or weapon use.
+The section places these figures within the broader history of India's armed forces.
 
 ---
 
-# 20. KODAVA Takk — LANGUAGE HISTORY
+# 🗣️ 16. Kodava Takk — The Language of Kodagu
 
-This should be one of the deepest sections on the entire website.
+One of the most detailed sections of the website is dedicated to **Kodava Takk (ಕೊಡವ ತಕ್ಕ್)**.
 
-Title:
-
-**Kodava Takk — The Language of Kodagu**
-
-Use the native form:
-
-**ಕೊಡವ ತಕ್ಕ್**
-
-Explain that Kodava Takk is a Dravidian language associated with Kodagu and the Kodava-speaking community.
-
-Do NOT make simplistic claims about it being merely a Kannada dialect.
-
-Explain its classification carefully and cite linguistic research.
+The section traces the development, documentation, writing systems, literature, and present-day challenges associated with the language.
 
 ---
 
-# 21. PHASE 1 — LINGUISTIC ROOTS
+## Phase 1 — Linguistic Roots
 
-Explain:
+The website introduces:
 
-* Dravidian language family
+* The Dravidian language family
 * South Dravidian classification
-* relationship with neighbouring Dravidian languages
-* similarities and differences with Kannada, Malayalam, Tamil and Tulu
-* historical scholarly attempts to classify the language
+* Kodava's relationship with neighbouring languages
+* Similarities and differences with Kannada, Malayalam, Tamil, and Tulu
+* Historical linguistic scholarship
 
-Discuss Robert Caldwell's contribution carefully.
+Robert Caldwell and later linguists are discussed in the context of the historical development of Dravidian linguistic classification.
 
-IMPORTANT:
-
-Do not state that Caldwell alone “proved” modern linguistic classification.
-
-Instead explain the historical development of linguistic scholarship.
-
-Include:
-
-**Language Family Tree**
-
-Dravidian
-→ South Dravidian
-→ relevant subgroup
-→ Kodava
-
-Make it visually interactive.
+The website avoids presenting historical linguistic debates as simpler than they actually were.
 
 ---
 
-# 22. PHASE 2 — ORAL TRADITION AND KANNADA SCRIPT
+## Phase 2 — Oral Tradition & Script
 
-Explain:
+Historically, Kodava cultural knowledge was transmitted extensively through oral traditions.
 
-* Strong oral tradition
-* Lack of a historically standardized native writing system
+The website explores:
+
 * Folk songs
 * Palame / Balo Pat traditions
 * Family histories
 * Ritual knowledge
-* Oral transmission
+* Oral literature
+* The historical use of Kannada script for writing Kodava
 
-Explain the historical use of Kannada script for writing Kodava.
-
-Discuss the relationship between language and script without implying that Kannada and Kodava are the same language.
+This section explains the important distinction between a **language** and a **writing system**.
 
 ---
 
-# 23. PHASE 3 — EARLY WRITTEN DOCUMENTATION
+## Phase 3 — Written Documentation
 
-Feature:
+The development of written documentation is explored through important works and scholars, including:
 
 ### R. A. Cole
 
 **An Elementary Grammar of the Coorg Language — 1867**
 
-Explain its importance in documenting Kodava.
-
 ### Rev. A. Graeter
 
 **Coorg Songs, with Outlines of Coorg Grammar — 1870**
 
-Explain its importance.
-
 ### Nadikerianda Chinnappa
 
-Feature him prominently.
-
-Explain:
-
-* collection of folk songs
-* preservation of oral traditions
-* linguistic contribution
-* cultural documentation
+An important figure in the preservation and documentation of Kodava oral traditions.
 
 ---
 
-# 24. PATTOLE PALAME
+# 📜 17. Pattole Palame
 
-Give this landmark work its own dedicated page.
+A dedicated section is devoted to **Pattole Palame**, the landmark work associated with Nadikerianda Chinnappa.
 
-Title:
+The website explores:
 
-**Pattole Palame — The Silken Lore**
+* Its publication in 1924
+* Collection of Kodava folk songs
+* Oral traditions
+* Ritual traditions
+* Cultural practices
+* Use of the Kannada script
+* Importance to Kodava cultural preservation
+* Later translations and continued cultural significance
 
-Include:
-
-* Author: Nadikerianda Chinnappa
-* First publication: 1924
-* Written using Kannada script
-* Kodava folk songs and traditions
-* Importance to cultural preservation
-* Later English translation by Boverianda Nanjamma and Chinnappa
-
-Discuss the work as an important record of Kodava folklore and traditions.
-
-Include a scanned-cover image if legally available.
-
-Do NOT reproduce large copyrighted passages.
-
-Use short quotations only when legally appropriate.
+The website does not reproduce large copyrighted passages and instead focuses on historical and cultural analysis.
 
 ---
 
-# 25. APPACHA KAVI
+# 🎭 18. Haradasa Appacha Kavi
 
-Create:
+The website features **Haradasa Appacha Kavi** and his contribution to Kodava literature and theatre.
 
-**Haradasa Appacha Kavi**
+Topics include:
 
-Explain:
+* Poetry
+* Drama
+* Theatre
+* Written Kodava literature
+* Cultural preservation
+* Development of modern Kodava literary expression
 
-* role in Kodava literature
-* theatre
-* poetry
-* development of written Kodava literary culture
-* importance in modern Kodava cultural history
-
-Create a timeline of major literary developments.
+A literary timeline connects his work with the wider history of Kodava language documentation.
 
 ---
 
-# 26. PHASE 4 — MODERN KODAVA SCRIPTS
+# 🔤 19. Kodava Writing Systems
 
-Create an interactive section explaining the history of attempts to write Kodava using different scripts.
+The website investigates historical and modern attempts to represent Kodava Takk in writing.
 
-Potentially discuss:
+Potential topics include:
 
 * Kannada script
-* Thirke script
-* I. M. Muthanna's script
+* Thirke
+* Other historical script proposals
+* I. M. Muthanna's work
 * Coorgi-Cox alphabet
+* Modern digital writing initiatives
 
-BUT:
+Because not every proposed writing system has the same historical status or community adoption, the website clearly distinguishes:
 
-This section must be carefully researched.
+**Historical script**
 
-Do not claim that one script is universally accepted unless authoritative evidence supports that claim.
+**Proposed script**
 
-Clearly distinguish:
+**Community use**
 
-* historical experiments
-* community use
-* proposed/modern scripts
-* institutional recognition
+**Modern experiment**
 
-Create a visual script comparison panel where legally available examples can be shown.
+**Institutional recognition**
 
 ---
 
-# 27. KODAVA LANGUAGE TODAY
+# 📱 20. The Future of Kodava Takk
 
-Discuss:
+The final linguistic section examines contemporary challenges and preservation efforts.
 
-* number of speakers only when sourced
-* language transmission
-* use of Kannada and English
-* education
-* intergenerational transmission
-* literature
-* newspapers/publications
-* digital preservation
-* linguistic documentation
-* language activism
-* requests for constitutional recognition
+Topics include:
 
-Discuss UNESCO classification only using a reliable UNESCO or authoritative linguistic source.
+* Intergenerational language transmission
+* Kannada and English in education
+* Written literature
+* Newspapers and publications
+* Digital tools
+* Language documentation
+* Modern script projects
+* Cultural organisations
+* Recognition efforts
+* Constitutional recognition discussions
 
-Do not exaggerate the language's status.
-
-Create:
-
-**“Is Kodava Takk endangered?”**
-
-with an evidence-based explanation.
+Claims about language endangerment or UNESCO classification are presented only with appropriate authoritative sourcing.
 
 ---
 
-# 28. CULTURAL ARCHIVE
+# 🖼️ 21. Kodagu Cultural Archive
 
-Create a gallery called:
+The website contains a visual archive organized into categories such as:
 
-**Kodagu Cultural Archive**
-
-Categories:
-
+* Historical photographs
 * People
-* Traditional Dress
+* Rulers
 * Ainmanes
-* Architecture
+* Traditional clothing
 * Festivals
-* Agriculture
-* Coffee Plantations
-* Historical Buildings
+* Architecture
 * Forts
+* Coffee plantations
 * Landscapes
-* Old Photographs
-* Maps
-* Manuscripts / Books
-* Language
+* Archaeology
+* Historical maps
+* Books
+* Manuscripts
+* Language and scripts
 
-Use a masonry/gallery layout.
+Images are accompanied by captions and source/rights information wherever available.
 
-Every historical image should have:
-
-* caption
-* approximate date if known
-* photographer/creator if known
-* source
-* licence/usage information where available
-
-Do not scrape copyrighted photographs indiscriminately.
-
-Prefer:
-
-* Wikimedia Commons
-* public-domain archives
-* government archives
-* openly licensed material
-* photographs with clear permission
-
-Where an image cannot legally be embedded, provide a source/reference instead.
+The project prioritizes public-domain and openly licensed material where possible.
 
 ---
 
-# 29. HISTORICAL FIGURES
+# 👤 22. Historical Figures
 
-Create a searchable historical-person database.
+A searchable historical-figure database allows visitors to explore important personalities connected to Kodagu.
 
-Potential categories:
+Categories include:
 
-**Rulers**
+* Rulers
+* Military figures
+* Writers
+* Linguists
+* Historians
+* Political leaders
+* Cultural figures
 
-**Military figures**
+Each profile can contain:
 
-**Writers**
-
-**Linguists**
-
-**Historians**
-
-**Political leaders**
-
-Each person gets:
-
-* portrait
-* name
-* dates
-* role
-* historical period
-* short biography
-* major contributions
-* sources
+* Name
+* Dates
+* Role
+* Historical period
+* Biography
+* Contributions
+* Portrait or historical image
+* Sources
 
 ---
 
-# 30. IMPORTANT PLACES
+# 📍 23. Historical Places
 
-Create a searchable “Places in History” section.
+The project also documents historically important locations throughout Kodagu.
 
-Examples:
+Examples include:
 
 * Madikeri
 * Madikeri Fort
@@ -978,66 +596,39 @@ Examples:
 * Talakaveri
 * Bhagamandala
 * Nalknad Palace
-* Omkareshwara Temple
-* important archaeological sites
-* historically significant villages
+* Archaeological sites
+* Historic settlements
+* Cultural landmarks
 
-Each place should have:
-
-* modern location
-* historical importance
-* timeline
-* map marker
-* photographs
-* sources
+Each location is connected to the interactive map whenever reliable geographical information is available.
 
 ---
 
-# 31. INTERACTIVE FEATURES
+# 🔎 24. Historical Search
 
-Add:
+The website includes a global search experience allowing users to discover information across the archive.
 
-### Search
+Searchable categories include:
 
-Global search across:
+* Events
+* People
+* Rulers
+* Places
+* Historical periods
+* Cultural terms
+* Language topics
+* Books
+* Festivals
 
-* people
-* places
-* rulers
-* dates
-* events
-* books
-* cultural terms
-* language topics
+The goal is to make a large amount of historical information easy to navigate.
 
-### Timeline Filter
+---
 
-Filter by:
+# 📖 25. Historical Glossary
 
-* Ancient
-* Medieval
-* Haleri
-* Mysore conflicts
-* British
-* Independence
-* Coorg State
-* Modern era
-* Language history
-* Cultural history
+A dedicated glossary explains important terms associated with Kodagu.
 
-### “On This Date”
-
-If historically meaningful events have reliable dates, show them.
-
-### Historical Comparison
-
-Allow users to compare:
-
-**Kodagu then vs Kodagu now**
-
-### Historical Glossary
-
-Terms such as:
+Examples include:
 
 * Kodagu
 * Coorg
@@ -1052,475 +643,306 @@ Terms such as:
 * Kailpodhud
 * Pattole Palame
 
-Each term gets a concise explanation.
+The glossary is designed to help visitors unfamiliar with Kodagu understand the terminology used throughout the website.
 
 ---
 
-# 32. “MYTH, TRADITION OR HISTORY?”
+# ⚖️ 26. History, Tradition & Evidence
 
-Create a special educational feature distinguishing:
+One of the project's core principles is to distinguish between different kinds of historical information.
 
-**Historical Evidence**
+Where appropriate, information may be identified as:
 
-**Oral Tradition**
+* **Documented History**
+* **Archaeological Evidence**
+* **Oral Tradition**
+* **Community Tradition**
+* **Colonial Account**
+* **Scholarly Interpretation**
+* **Disputed**
+* **Uncertain**
 
-**Community Tradition**
+This is especially important when discussing ancient origins, oral traditions, historical memory, religious practices, and disputed interpretations.
 
-**Colonial Account**
-
-**Modern Scholarship**
-
-This is extremely important because Kodagu's history contains traditions and legends that should not automatically be presented as verified historical fact.
-
-For disputed origins, show multiple interpretations.
-
----
-
-# 33. SOURCES & BIBLIOGRAPHY
-
-Create a beautiful bibliography page.
-
-Organize sources into:
-
-### Books
-
-### Government Publications
-
-### Academic Research
-
-### Historical Documents
-
-### Linguistic Research
-
-### Websites
-
-### Image Sources
-
-For each source display:
-
-* title
-* author/institution
-* year
-* publisher
-* link if available
-* topic covered
-
-Include citations throughout the website.
+The objective is not to eliminate cultural traditions from the historical narrative, but to clearly explain what kind of evidence supports each claim.
 
 ---
 
-# 34. ABOUT THE PROJECT
+# 📚 27. Sources & Bibliography
 
-Create:
+The project is designed around research rather than unsourced historical storytelling.
 
-**About The Complete History of Coorg**
+Potential sources include:
 
-Explain that this project was created as an independent digital historical archive dedicated to preserving and presenting the history and cultural heritage of Kodagu.
+### Books & Historical Works
 
-Include this personal developer statement:
+* *Coorg Memoirs* — Hermann Mögling
+* *An Elementary Grammar of the Coorg Language* — R. A. Cole
+* *Coorg Songs, with Outlines of Coorg Grammar* — Rev. A. Graeter
+* *Pattole Palame* — Nadikerianda Chinnappa
+* Works concerning the Dravidian languages by Robert Caldwell
+* Historical works relating to Kodagu by Lewis Rice and other scholars
+* Modern academic research on Kodagu history, archaeology, culture, and linguistics
 
-**“The developer, Minteez, is from Coorg and created this website as a personal project dedicated to documenting and celebrating the history, culture, people and language of his homeland.”**
+### Institutional Sources
 
-Make this section personal but not overly sentimental.
+* Government of India
+* Census of India
+* Karnataka Government
+* Karnataka Legislature
+* Archaeological institutions
+* Ministry of Defence
+* Academic institutions
+* Digital archives
+
+### Online Sources
+
+Wikipedia and other reputable online resources may be used as research starting points and cross-referenced against more authoritative material.
+
+The website aims to avoid treating Wikipedia or any single online source as the sole authority.
 
 ---
 
-# 35. ABOUT THE DEVELOPER
+# 🧭 28. Historical Philosophy
 
-Create a dedicated developer card.
+The project follows several principles:
 
-Name:
+### Evidence over assumption
 
-**Minteez**
+Historical claims should be supported by reliable sources.
 
-Description:
+### Context over simplification
+
+Events are presented within their wider political, social, geographical, and cultural context.
+
+### Multiple perspectives
+
+Where historical interpretations differ, those differences should be acknowledged.
+
+### Tradition matters
+
+Oral histories and community traditions are culturally valuable, while their status as historical evidence is clearly identified.
+
+### No invented history
+
+The website should never invent:
+
+* Historical quotations
+* Dates
+* People
+* Archaeological discoveries
+* Portraits
+* Manuscripts
+* Political events
+* Linguistic facts
+
+### No romanticization
+
+The project does not intentionally romanticize colonialism, warfare, political rulers, or historical communities.
+
+---
+
+# 🏫 29. Coorg in the CBSE Classroom
+
+For many CBSE students, **Coorg was first encountered not through a history book, but through an English textbook**.
+
+During the **2007–2026 period**, under the editions and curriculum in use during those years, the Class 10 CBSE English Language & Literature course included the chapter **“Coorg” by Lokesh Abrol** in the *First Flight* textbook.
+
+The chapter introduced students to aspects of Coorg/Kodagu including:
+
+* Its landscape
+* The Western Ghats
+* Coffee plantations
+* The Kodava community
+* Traditional lifestyles
+* Local culture
+* Wildlife
+* The region's distinctive identity
+
+With the CBSE Class 10 curriculum and textbooks changing from **2027 onward**, this chapter represents a particular generation of students' encounter with Coorg through their school education.
+
+For Minteez, however, the chapter was rather more personal.
+
+**He is from Coorg.**
+
+When his schoolmates discovered this, many became curious about what life in Coorg was actually like.
+
+They asked about:
+
+* The lifestyle
+* The people
+* The traditions
+* The landscape
+* The Kodava community
+* What living in Coorg was really like
+
+But one question became a recurring classroom joke.
+
+Because of the historically distinctive legal exemption associated with the Kodava community and firearms, classmates would sometimes ask:
+
+> **“Since Kodavas can hold firearms without a licence, do you own a gun?”**
+
+And occasionally:
+
+> **“Please buy me a gun, since you're from Coorg!”**
+
+The questions were usually met with laughter.
+
+The reality is more nuanced than the popular classroom version of the story. The Kodava community has historically had a specific legal exemption relating to firearms under Indian arms regulations, subject to the applicable legal conditions. It should not be interpreted as meaning that every Kodava automatically owns a firearm or can simply obtain one without complying with the law.
+
+The experience nevertheless became one of the memorable ways in which Coorg entered classroom conversations.
+
+---
+
+## 📖 When the Textbook Met Home
+
+The connection became even more memorable when Minteez's English teacher introduced the chapter to the class.
+
+Before beginning the lesson, the teacher jokingly told the students:
+
+> **“Coorg is the place of Minteez, and if anyone has doubts, they should approach him instead of the teacher.”**
+
+Suddenly, a chapter in the English textbook had acquired an unofficial classroom “expert.”
+
+For the other students, **Coorg was a chapter in *First Flight*.**
+
+For Minteez, **Coorg was home.**
+
+---
+
+## 🌿 From One Chapter to an Entire History
+
+The textbook could only introduce a small part of Coorg's identity.
+
+But it naturally raised much bigger questions:
+
+* Where did the history of Kodagu begin?
+* What do its prehistoric monuments tell us?
+* Which dynasties influenced the region?
+* How did the Haleri Kingdom emerge?
+* Why did Madikeri become the capital?
+* What happened during the conflicts with Mysore?
+* Why was the kingdom annexed by the British in 1834?
+* How did British rule transform Kodagu?
+* How did coffee become central to the region?
+* Why did Coorg become a separate Part-C State?
+* Why was it merged with Mysore State in 1956?
+* What is the history of the Kodava people?
+* What are Okkas and Ainmanes?
+* What are the traditions surrounding Karana worship?
+* How did Kodava Takk develop?
+* Why was so much of its literature transmitted orally?
+* How did works such as *Pattole Palame* preserve Kodava culture?
+* What challenges does Kodava Takk face today?
+
+Those questions extend far beyond a single school chapter.
+
+They helped inspire **The Complete History of Coorg**.
+
+The project expands the story from a textbook introduction into a much broader digital archive covering **history, archaeology, geography, culture, language, literature, agriculture, military heritage, historical personalities, and modern identity**.
+
+In that sense, the project is both an educational resource and a personal connection to home.
+
+> **The textbook introduced Coorg in a chapter.
+> This project attempts to tell its story in full.**
+
+---
+
+# 🌱 30. Why This Project Exists
+
+History is more than a list of dates.
+
+It is the story of places, people, languages, families, landscapes, traditions, political changes, and memories.
+
+**The Complete History of Coorg** was created to bring those different pieces of Kodagu's story together in one place.
+
+From the ancient monuments of the Western Ghats to the Haleri kingdom, from Madikeri's historic fort to the rise of coffee plantations, from Kodava oral traditions to the evolution of Kodava Takk, and from the military careers of Cariappa and Thimayya to the modern identity of Kodagu, the project attempts to present Coorg as a living historical landscape.
+
+The project also has a personal origin.
+
+For one generation of CBSE students, **“Coorg” was a chapter in their English textbook.**
+
+For Minteez and his classmates, that chapter became something more personal: a reason to ask questions, share stories, laugh about misconceptions, and discover that the place described in a textbook was someone's actual home.
+
+Most importantly, this is a project created by someone **from Coorg, for anyone interested in understanding Coorg**.
+
+---
+
+# 👨‍💻 31. About the Developer
+
+## Minteez
 
 **Website Developer • Student • Cybersecurity Aspirant**
 
-Bio:
+Minteez is a student and website developer from **Coorg (Kodagu)** with interests in technology, history, and cybersecurity.
 
-**“Minteez is a student and website developer from Coorg (Kodagu), with a strong interest in technology, history and cybersecurity. He created The Complete History of Coorg as a personal project dedicated to his homeland and its rich historical, cultural and linguistic heritage.”**
+He created **The Complete History of Coorg** as a personal project dedicated to documenting and presenting the history, culture, people, and language of his homeland.
 
-Include links:
+The project combines his interest in web development with his connection to Coorg and his desire to create a digital resource that makes Kodagu's history accessible to a wider audience.
 
-Instagram:
-https://www.instagram.com/sudo.minteez
+### Connect with Minteez
 
-YouTube:
-https://www.youtube.com/@thecubermint
-
-Portfolio:
-https://minteez.lovable.app
-
-Use recognizable social icons.
+* **Instagram:** [@sudo.minteez](https://www.instagram.com/sudo.minteez)
+* **YouTube:** [@thecubermint](https://www.youtube.com/@thecubermint)
+* **Portfolio:** [minteez.lovable.app](https://minteez.lovable.app)
 
 ---
 
-# 36. FOOTER
+# 🤝 32. Credits
 
-Create a premium multi-column footer.
+**Created by:** Minteez
 
-Include:
+**Development platform:** Lovable
 
-**The Complete History of Coorg**
+**Project:** The Complete History of Coorg
 
-**Explore**
+**Version:** 1.0
 
-* Timeline
-* Map
-* Culture
-* Kodava Language
-* People
-* Places
-* Gallery
-* Sources
+The project makes use of historical research, publicly available resources, academic material, government publications, archival material, and appropriately licensed/openly available visual resources.
 
-**Project**
-
-* About
-* Developer
-* Sources
-* Image Credits
-
-Footer copyright:
-
-**Copyright © 2026 Minteez. All Rights Reserved.**
-
-Credits:
-
-**Designed and engineered by Minteez with Lovable.**
-
-Version:
-
-**Version 1.0 • Build 2026**
-
-Developer credit:
-
-**Created by Minteez, a developer from Coorg, as a digital archive dedicated to his homeland.**
-
-Social links:
-
-Instagram:
-https://www.instagram.com/sudo.minteez
-
-YouTube:
-https://www.youtube.com/@thecubermint
-
-Portfolio:
-https://minteez.lovable.app
+Individual photographs, documents, maps, and other third-party materials remain the property of their respective creators or institutions and are credited where applicable.
 
 ---
 
-# 37. IMAGE STRATEGY
+# 📜 33. Copyright
 
-The website should contain a GOOD amount of visual material.
+© 2026 **Minteez**. All Rights Reserved.
 
-Prioritize images for:
+The website's original design, code, structure, written presentation, and original project materials are the property of the project creator unless otherwise indicated.
 
-* Kodagu landscape
-* Western Ghats
-* Madikeri
-* Madikeri Fort
-* Haleri rulers
-* historical maps
-* old Coorg photographs
-* Kodava traditional dress
-* Ainmanes
-* festivals
-* coffee plantations
-* Talakaveri
-* Bhagamandala
-* archaeological monuments
-* Nadikerianda Chinnappa
-* Appacha Kavi
-* K. M. Cariappa
-* K. S. Thimayya
-* historical books
-* manuscripts
-* scripts
-
-Do not invent historical portraits.
-
-When no authentic portrait exists, use:
-
-* artwork
-* map
-* document
-* symbolic illustration
-
-and clearly label it.
+Third-party historical photographs, documents, maps, artworks, and other materials remain subject to their respective copyright and licensing terms.
 
 ---
 
-# 38. ACCESSIBILITY
+# 🗺️ 34. Explore the History
 
-Implement:
+**Ancient Kodagu → Early Dynasties → Haleri Kingdom → Mysore Conflicts → British Coorg → Independence → Coorg State → Karnataka**
 
-* keyboard navigation
-* visible focus states
-* semantic HTML
-* proper heading hierarchy
-* alt text for every meaningful image
-* sufficient colour contrast
-* reduced-motion support
-* readable font sizes
-* accessible map controls
-* accessible modal dialogs
+Alongside the timeline:
 
-Do not rely solely on colour to communicate historical periods.
+**People → Culture → Festivals → Agriculture → Military Heritage → Kodava Takk → Literature → Places → Maps → Sources**
 
 ---
 
-# 39. TECHNICAL REQUIREMENTS
+## 📌 Project Information
 
-Use a modern React/TypeScript architecture compatible with Lovable.
-
-Use:
-
-* reusable components
-* modular data structures
-* clean routing
-* responsive CSS
-* efficient image loading
-* lazy loading for galleries
-* optimized assets
-* semantic HTML
-
-Use Lucide icons or another appropriate icon system already supported by the project.
-
-For maps, use Leaflet or another suitable mapping solution.
-
-Do not introduce unnecessary dependencies.
-
-Keep historical content in structured data files/components so it can be updated later without rebuilding entire pages.
+| Information              | Details                               |
+| ------------------------ | ------------------------------------- |
+| **Project Name**         | The Complete History of Coorg         |
+| **Subject**              | History, Culture & Heritage of Kodagu |
+| **Location**             | Kodagu (Coorg), Karnataka, India      |
+| **Developer**            | Minteez                               |
+| **Development Platform** | Lovable                               |
+| **Version**              | 1.0                                   |
+| **Domain**               | coorg-history-vault.lovable.app       |
+| **Primary Focus**        | Digital History & Cultural Archive    |
 
 ---
 
-# 40. CONTENT ARCHITECTURE
+## 🌿 The Complete History of Coorg
 
-Structure the application approximately as:
+**A digital journey through the history, culture, people, language and heritage of Kodagu.**
 
-/
+**Created by Minteez — a developer from Coorg.**
 
-├── Home
-├── Timeline
-├── Ancient Kodagu
-├── Haleri Dynasty
-├── Mysore Conflicts
-├── British Kodagu
-├── Independence & Coorg State
-├── Interactive Map
-├── Kodava People
-├── Culture & Traditions
-├── Festivals
-├── Agriculture
-├── Military Heritage
-├── Kodava Language
-├── Pattole Palame
-├── Kodava Literature
-├── Historical Figures
-├── Historical Places
-├── Gallery
-├── Glossary
-├── Sources
-└── About
-
----
-
-# 41. DATA MODEL
-
-Create structured data for:
-
-### events
-
-* id
-* year/startYear
-* endYear
-* title
-* period
-* description
-* significance
-* location
-* image
-* sources
-
-### rulers
-
-* id
-* name
-* reign
-* dynasty
-* biography
-* achievements
-* image
-* sources
-
-### people
-
-* id
-* name
-* category
-* birth/death
-* biography
-* significance
-* image
-* sources
-
-### places
-
-* id
-* name
-* latitude
-* longitude
-* period
-* description
-* significance
-* images
-* sources
-
-### sources
-
-* id
-* title
-* author
-* publication
-* year
-* type
-* url
-* sectionsReferenced
-
----
-
-# 42. HOMEPAGE SECTIONS AFTER HERO
-
-After the hero, create:
-
-1. **A Brief History**
-2. **Explore the Timeline**
-3. **The Kingdom of Coorg**
-4. **The Map of Kodagu**
-5. **People & Culture**
-6. **Kodava Takk**
-7. **Coffee & the Landscape**
-8. **Military Heritage**
-9. **Historical Gallery**
-10. **Featured Sources**
-11. **About the Project**
-
-Use visually varied layouts so the homepage doesn't become a long stack of identical cards.
-
----
-
-# 43. ANIMATION
-
-Use tasteful animations:
-
-* fade-in on scroll
-* timeline progression
-* map marker animations
-* card hover effects
-* image zoom on gallery hover
-* subtle parallax in hero
-* smooth page transitions
-
-Do NOT overanimate the historical content.
-
-The site should feel like a museum, not a gaming website.
-
-Respect prefers-reduced-motion.
-
----
-
-# 44. RESPONSIBLE HISTORICAL PRESENTATION
-
-This requirement is extremely important.
-
-Never:
-
-* invent facts
-* invent historical quotes
-* invent photographs
-* invent archaeological discoveries
-* present legends as proven history
-* exaggerate historical claims
-* use nationalist propaganda
-* romanticize colonialism
-* demonize historical communities
-* present disputed linguistic theories as settled facts
-
-When appropriate, use labels:
-
-**Documented**
-
-**Traditional Account**
-
-**Scholarly Interpretation**
-
-**Disputed**
-
-**Uncertain**
-
-This should make the project more academically credible.
-
----
-
-# 45. FINAL EXPERIENCE
-
-When finished, the website should feel like someone has built an actual **digital museum of Kodagu history**.
-
-A visitor should be able to enter the homepage and naturally go from:
-
-**Ancient Kodagu → Early Dynasties → Haleri Kingdom → Mysore Conflicts → British Rule → Independence → Coorg State → Karnataka**
-
-while simultaneously being able to explore:
-
-**Kodava People → Clan System → Religion → Festivals → Agriculture → Military Heritage → Kodava Takk → Literature → Modern Language Preservation**
-
-The result should be visually impressive enough to serve as a serious portfolio project, but academically structured enough to be useful as an educational reference.
-
-## FINAL QUALITY CHECK
-
-Before considering the project complete:
-
-* Verify historical dates.
-* Verify ruler names and succession.
-* Verify the 1834 Coorg War chronology.
-* Verify the 1837 rebellion separately.
-* Verify the 1950–1956 Coorg State timeline.
-* Verify linguistic classifications.
-* Verify claims about Kodava scripts.
-* Verify Pattole Palame publication information.
-* Verify biographies of Cariappa and Thimayya.
-* Verify every map location.
-* Add source attribution.
-* Check image licences.
-* Check mobile responsiveness.
-* Check accessibility.
-* Check broken links.
-* Check search.
-* Check map functionality.
-* Check timeline filtering.
-* Check all footer/social links.
-
-Do not mark the project as “complete” merely because the UI is finished. The historical content and citations must also be coherent, sourced, and internally consistent.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/2fd35a16-66e1-439b-8d4e-3e67c2dac931).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+© 2026 Minteez. All Rights Reserved.
